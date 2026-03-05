@@ -1,0 +1,27 @@
+h1{
+    color: #03ed9d;
+}
+
+h2 {
+    color: white;   
+}
+
+
+
+.card {
+  width: 300px;      
+  background-color: #181f23;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  margin: 25px auto;
+  padding: 10px;
+}
+
+.card-text {
+    padding: 20px;
+    color: lightgrey;
+}
+
+
+

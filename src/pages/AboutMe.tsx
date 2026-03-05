@@ -1,5 +1,7 @@
+import "./AboutMe.css";     
+
 function AboutMe () {
-    return (
+    return ( 
         <div>
             <h1>About Me</h1>
             <p>I'm Andre, a 21-year-old from the Netherlands with a passion for coding, digital art, and gaming. I love building cool

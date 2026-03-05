@@ -1,0 +1,32 @@
+header {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+
+
+    h1 { 
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    nav {
+        gap: 20px;
+        display: flex;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: lightgrey;
+    }
+
+    nav a:hover,
+    nav a.active {
+        color: #03ed9d;
+    }
+
+
+}
+

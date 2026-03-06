@@ -82,24 +82,30 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-content1{
+    font-size: 1rem;
+}
+.card-content2{
+    font-size: 1rem;
+}
+.card-content3{
+    font-size: 1rem;
+}
+.card-content4{
+    font-size: 1rem;
+}
+.card-content5{
+    font-size: 1rem;
+}
+.card-content6{
+    font-size: 1rem;
+}
+.card-content7{
+    font-size: 1rem;
+}
+.card-content8{
+    font-size: 1rem;
+}
 
 
 
@@ -112,3 +118,20 @@ h2 {
   margin: 25px auto;
   padding: 10px;
 }
+
+
+.card-content1 h2,
+.card-content2 h1,
+.card-content3 h1,
+.card-content4 h1,
+.card-content5 h1,
+.card-content6 h1,
+.card-content7 h1,
+.card-content8 h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+
+

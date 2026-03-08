@@ -71,17 +71,3 @@ export default Home;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

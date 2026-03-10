@@ -2,7 +2,7 @@ header {
     background-color: transparent;
     padding: 20px 40px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     gap: 60px;
     border-bottom: 1px solid #1a1a1a;
@@ -31,6 +31,8 @@ header {
     span {
         color: #5746aa;
     }
+
+
 
 }
 

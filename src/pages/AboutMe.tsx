@@ -3,9 +3,10 @@ import "./AboutMe.css";
 function AboutMe() {
     return (
         <div className="aboutMe">
+            <div className="wrapper">
+                
             <h1>About Me</h1>
             <p>The things about me.</p>
-            <div className="wrapper">
             <div className="gridContainer">
                 <div>
                     <div className="card about" >
@@ -21,18 +22,23 @@ function AboutMe() {
                 </div>
                 
                 <div>
+                    
                     <div className="gridContainer">
                         <div className="card small">
                             <span>Location</span>
+                            <p>Nederland</p>
                         </div>
-                        <div className="card">
+                        <div className="card small">
                             <span>Age</span>
+                            <p>21</p>
                         </div>
                         <div className="card small">
                             <span>Status</span>
+                            <p>Building stuff</p>
                         </div>
-                        <div className="card">
+                        <div className="card small">
                             <span>School</span>
+                            <p>Deltion College</p>
                         </div>
                     </div>
 

@@ -1,7 +1,7 @@
 import "./Header.css";
 import { NavLink } from "react-router";
 
-function Header() {
+function Header() {  
     return (
         <header>
 

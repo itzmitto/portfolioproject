@@ -1,4 +1,4 @@
-.aboutMe {
+.aboutMe {  
 
     .gridContainer {
         width: fit-content;
@@ -31,14 +31,17 @@
 
 
     .wrapper {
-        margin: 1rem;
+        margin: 0 auto;
         padding: 1rem;
+        width: fit-content;
+        
     }
 
     .small {
-        height: 1rem;
-    }
+        height: auto;
+        text-transform: uppercase;
 
+    }
 
     h4 {
         color: #5947ae;
@@ -55,4 +58,8 @@
     .card li {
         color: lightgrey;
     }
+
+
+
+
 }

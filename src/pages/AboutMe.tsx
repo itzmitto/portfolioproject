@@ -2,7 +2,7 @@ import "./AboutMe.css";
 
 function AboutMe() {
     return (
-        <>
+        <div className="aboutMe">
             <h1>About Me</h1>
             <p>The things about me.</p>
             <div className="wrapper">
@@ -62,7 +62,7 @@ function AboutMe() {
             </div>
             </div>
             
-        </>
+        </div>
     )
 }
 

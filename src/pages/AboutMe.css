@@ -1,54 +1,58 @@
-.gridContainer {
-    width: fit-content;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
+.aboutMe {
 
-.card {
-    background: #25252f;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 18px;
-}
+    .gridContainer {
+        width: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 
-
-p {
-    color: lightgrey;
-} 
-
-.about {
-    height: 15rem;
-    width: 30rem;
-}
-
-.education {
-    height: 10rem;
-    width: 30rem;
-}
+    .card {
+        background: #25252f;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding: 18px;
+    }
 
 
-.wrapper {
-    margin: 1rem;
-    padding: 1rem;
-} 
+    p {
+        color: lightgrey;
+    }
 
-.small {
-    height: 1rem;
-}
+    .about {
+        height: 15rem;
+        width: 30rem;
+    }
+
+    .education {
+        height: 10rem;
+        width: 30rem;
+    }
 
 
-h4{
-    color: #5947ae;
-}
+    .wrapper {
+        margin: 1rem;
+        padding: 1rem;
+    }
 
-h1{
-    color: #03ed9d;
-}
+    .small {
+        height: 1rem;
+    }
 
-span{
-    color: #03ed9d;
-}
-.card li {
-    color: lightgrey;
+
+    h4 {
+        color: #5947ae;
+    }
+
+    h1 {
+        color: #03ed9d;
+    }
+
+    span {
+        color: #03ed9d;
+    }
+
+    .card li {
+        color: lightgrey;
+    }
 }

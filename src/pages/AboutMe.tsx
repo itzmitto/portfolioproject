@@ -42,7 +42,7 @@ function AboutMe() {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card interests">
                         <h4>Interests</h4>
                         <div>
                             <span>Coding</span>

@@ -74,26 +74,4 @@
 
 
 
-
-
-
-
-}
-
-
-
-
-
-::-webkit-scrollbar {
-    width: 4px;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--bg);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--neon2);
-    border-radius: 2px;
-
 }

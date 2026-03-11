@@ -39,8 +39,9 @@
 
     .small {
         height: auto;
-        text-transform: uppercase;
-
+        width: 200px;
+        padding: 10px;
+        box-sizing: border-box;
     }
 
     h4 {
@@ -59,6 +60,10 @@
         color: lightgrey;
     }
 
+    
+    body {
+            font-family: var(--font-body);
+    }
 
 
 

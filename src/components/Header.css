@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: center; 
     align-items: center;
-    gap: 60px;
+    gap: 100px;
     border-bottom: 1px solid #1a1a1a;
 
     h1 {
@@ -35,9 +35,3 @@ header {
 
 
 }
-
-
-
-
-
-

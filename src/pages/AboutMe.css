@@ -1,4 +1,6 @@
-.aboutMe {  
+.aboutMe {
+ 
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
 
     .gridContainer {
         width: fit-content;
@@ -22,6 +24,9 @@
     .about {
         height: 15rem;
         width: 30rem;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
     }
 
     .education {
@@ -34,7 +39,7 @@
         margin: 0 auto;
         padding: 1rem;
         width: fit-content;
-        
+
     }
 
     .small {
@@ -60,18 +65,13 @@
         color: lightgrey;
     }
 
+
+
+
     
-    body {
-            font-family: var(--font-body);
-    }
+    
+
 
 
 
 }
-
-
-
-
-
-
-

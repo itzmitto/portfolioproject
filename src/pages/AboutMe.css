@@ -31,16 +31,14 @@
         width: 30rem;
     }
 
-    /* .small {
+    .small {
         height: auto;
         width: 200px;
         padding: 10px;
-        was 18px
-        box-sizing: border-box;
-        text-align: center;
-        border: 1px solid var(--border);
+        font-size: 18px;
+        display: flex;
     }
- */
+
 
     .interests {
         padding: 10px;
@@ -98,7 +96,7 @@
 
 
 
-    .small {
+    /* .small {
         display: flex;
         align-items: center;
         gap: 14px;
@@ -113,25 +111,21 @@
     }
 
     .small {
-        font-size: 22px;
-    }
-
-    .small {
         display: flex;
         flex-direction: column;
     }
 
     .small {
-        font-size: 11px;
         letter-spacing: 2px;
         text-transform: uppercase;
         color: #00ffa6;
     }
 
     .small {
-        font-size: 15px;
         color: white;
-    }
+    } */
+
+
 
 
 }

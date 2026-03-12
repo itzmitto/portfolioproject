@@ -26,19 +26,21 @@
 
     }
 
-    .small {
-        height: auto;
-        width: 200px;
-        padding: 10px;
-        box-sizing: border-box;
-        text-align: center;
-    }
-
     .education {
         height: 10rem;
         width: 30rem;
-
     }
+
+    /* .small {
+        height: auto;
+        width: 200px;
+        padding: 10px;
+        was 18px
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px solid var(--border);
+    }
+ */
 
     .interests {
         padding: 10px;
@@ -86,6 +88,50 @@
         line-height: 1.5;
     }
 
+
+
+
+
+
+
+
+
+
+    
+.small{
+    display:flex;
+    align-items:center;
+    gap:14px;
+
+    width:240px;
+    padding:14px 18px;
+
+    border-radius:14px;
+    border:1px solid var(--border);
+
+    background:rgba(40,40,50,0.6);
+}
+
+.small{
+    font-size:22px;
+}
+
+.small{
+    display:flex;
+    flex-direction:column;
+}
+
+.small{
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#00ffa6;
+}
+
+.small{
+    font-size:15px;
+    color:white;
+}
 
 
 }

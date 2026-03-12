@@ -17,12 +17,6 @@
     }
 
 
-    p {
-        color: lightgrey;
-        font-size: 0.9rem;
-        line-height: 1.5;
-    }
-
     .about {
         height: 15rem;
         width: 30rem;
@@ -32,7 +26,6 @@
 
     }
 
-    
     .small {
         height: auto;
         width: 200px;
@@ -41,22 +34,34 @@
         text-align: center;
     }
 
-
-
-
     .education {
         height: 10rem;
         width: 30rem;
+
     }
+
+    .interests {
+        padding: 10px;
+        margin: 10px;
+        width: 30rem;
+
+    }
+
+    .games {
+        padding: 10px;
+
+    }
+
+
+
+
 
 
     .wrapper {
         margin: 0 auto;
         padding: 1rem;
         width: fit-content;
-
     }
-
 
     h4 {
         color: #5947ae;
@@ -75,17 +80,11 @@
         color: lightgrey;
     }
 
-    .interests {
-        padding: 10px;
-        margin: 10px;
+    p {
+        color: lightgrey;
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
-
-
-    .games {
-        padding: 10px;
-
-    }
-
 
 
 

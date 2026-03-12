@@ -6,7 +6,7 @@ body {
   background: linear-gradient(to right,
       #0c0d0f,
       #0d1420);
-
+  font-family: "DM Sans", sans-serif; 
 }
 
 ::-webkit-scrollbar {
@@ -17,3 +17,6 @@ body {
   background: var(--bg);
   background-color: #7b61ff;
 }
+
+
+

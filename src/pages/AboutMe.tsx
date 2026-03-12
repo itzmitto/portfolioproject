@@ -16,7 +16,7 @@ function AboutMe() {
                     </div>
                     <div className="card education">
                         <h4>Education</h4>
-                        <h3>Deltion College</h3> 
+                        <h3>Deltion College Zwolle</h3> 
                         <p>Software Developer student</p>
                     </div>
                 </div>

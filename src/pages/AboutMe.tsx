@@ -54,7 +54,7 @@ function AboutMe() {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="card games">
                         <h4>Currently Playing</h4>
                         <ul>
                             <li>Rainbow Six Siege</li>

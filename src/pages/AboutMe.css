@@ -19,7 +19,7 @@
 
     p {
         color: lightgrey;
-        
+
     }
 
     .about {
@@ -69,17 +69,18 @@
     }
 
     .interests {
-        /* height: auto; */
+        padding: 10px;
+        margin: 10px;
+    }
+
+
+    .games {
+        padding: 10px;
+        
     }
 
 
 
 
 
-
 }
-
-
-
-
-

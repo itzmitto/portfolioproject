@@ -97,41 +97,41 @@
 
 
 
-    
-.small{
-    display:flex;
-    align-items:center;
-    gap:14px;
 
-    width:240px;
-    padding:14px 18px;
+    .small {
+        display: flex;
+        align-items: center;
+        gap: 14px;
 
-    border-radius:14px;
-    border:1px solid var(--border);
+        width: 240px;
+        padding: 14px 18px;
 
-    background:rgba(40,40,50,0.6);
-}
+        border-radius: 14px;
+        border: 1px solid var(--border);
 
-.small{
-    font-size:22px;
-}
+        background: rgba(40, 40, 50, 0.6);
+    }
 
-.small{
-    display:flex;
-    flex-direction:column;
-}
+    .small {
+        font-size: 22px;
+    }
 
-.small{
-    font-size:11px;
-    letter-spacing:2px;
-    text-transform:uppercase;
-    color:#00ffa6;
-}
+    .small {
+        display: flex;
+        flex-direction: column;
+    }
 
-.small{
-    font-size:15px;
-    color:white;
-}
+    .small {
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #00ffa6;
+    }
+
+    .small {
+        font-size: 15px;
+        color: white;
+    }
 
 
 }

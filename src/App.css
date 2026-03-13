@@ -1,4 +1,4 @@
-/* dit is voor de css hover animation  */
+/* dit is voor de css cards hover animation  */
 
  .about {
     height: 15rem;
@@ -28,5 +28,41 @@
 }
 
 .about:hover::before {
+    opacity: 1;
+}
+
+
+
+
+
+
+ .education {
+    height: 15rem;
+    width: 30rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    border: 1px solid #5947ae; /* zorg dat er een border is om te animeren */
+    transition: border-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.education::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(circle at 50% 0%, #372c6b, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.education:hover {
+    border-color: rgba(0, 245, 160, 0.3);
+    transform: translateY(-3px);
+}
+
+.education:hover::before {
     opacity: 1;
 }

@@ -73,11 +73,11 @@
     }
 
     .card li {
-        color: lightgrey;
+        color: darkgrey;
     }
 
     p {
-        color: lightgrey;
+        color: darkgrey;
         font-size: 0.9rem;
         line-height: 1.5;
     }

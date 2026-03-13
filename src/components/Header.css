@@ -1,7 +1,7 @@
 header {
     background-color: transparent;
     padding: 20px 40px;
-    display: flex;
+    display: flex; 
     justify-content: center; 
     align-items: center;
     gap: 100px;
@@ -20,7 +20,7 @@ header {
 
     nav a {
         text-decoration: none;
-        color: lightgrey;
+        color: darkgrey;
     }
 
     nav a:hover,

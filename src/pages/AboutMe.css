@@ -21,11 +21,14 @@
         font-size: 0.95rem;
         line-height: 1.5;
         margin-bottom: 15px;
+        border: 1px solid #1b4f45;
     }
+
 
     .education {
         height: 10rem;
         width: 30rem;
+        border: 1px solid #362e63;
     }
 
     .small {
@@ -34,32 +37,39 @@
         font-size: 18px;
         display: flex;
         padding: 10px 20px;
+        border: 1px solid #2b2c3a;
+        align-items: center;
     }
 
-        
+
     .interests {
         padding: 10px;
         width: 30rem;
         height: auto;
         align-self: stretch;
-
-
-
-
+        border: 1px solid #2b2c3a;
     }
-
-
-
-
-
-
 
 
 
     .games {
         padding: 10px;
-
+        border: 1px solid #2d2d3a;
+        
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     .wrapper {
@@ -100,70 +110,4 @@
 
 
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-
-.aboutMe {
-
-    .gridContainer {
-        width: fit-content;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 14px;
-    }
-
-    .card {
-        background: #25252f;
-        border-radius: 12px;
-        border: 1px solid black;
-        padding: 20px;
-    }
-
-    .about {
-        height: 15rem;
-        width: 30rem;
-        font-size: 0.95rem;
-        line-height: 1.5;
-        margin-bottom: 15px;
-    }
-
-    .education {
-        height: 10rem;
-        width: 30rem;
-    }
-
-    .small {
-        height: auto;
-        width: 200px;
-        font-size: 18px;
-        display: flex;
-        padding: 10px 20px;
-        flex-direction: column;
-    }
-
-    .interests {
-        padding: 20px;
-        width: auto;      
-        height: auto;
-   
-    }
-
-    .games {
-        padding: 10px;
-    }
-
-} */

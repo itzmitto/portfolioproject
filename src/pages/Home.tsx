@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 function Home() {
   const navigate = useNavigate();
 
-  return (
+  return ( 
     <div className="Home-container">
       <h1> · Developer · Artist · Gamer </h1>
       <p>Hey, I'm Andre. I build things for the web.</p>

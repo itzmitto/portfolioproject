@@ -62,16 +62,3 @@ export default Home;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-

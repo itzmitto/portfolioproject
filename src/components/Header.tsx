@@ -6,7 +6,7 @@ function Header() {
         <header>
 
             <h1><NavLink to="/" style={{ textDecoration: "none", color: "#03ed9d" }}>
-                PORTFOLIO</NavLink></h1>
+                PORTFOLIO</NavLink></h1> 
 
             <nav>
                 <NavLink to="/" end>

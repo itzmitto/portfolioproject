@@ -5,7 +5,7 @@ function AboutMe() {
         <div className="aboutMe">
             <div className="wrapper">
                 
-            <h1>About Me</h1>
+            <h1>── About Me</h1>
             <p>The things about me.</p>
             <div className="gridContainer">
                 <div>

@@ -2,10 +2,11 @@
 
     .gridContainer {
         display: grid;
-        /* grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin-top: 40px; */
+        gap: 25px;
+        justify-content: center;
+        margin: 50px auto;
     }
+
 
 
     h1 {
@@ -18,8 +19,26 @@
         color: white;
         background: #191921;
         margin: 20px 0;
-
     }
+
+
+    .card.main {
+        margin: 10;
+        color: lightgrey;
+    }
+
+
+    .card.creative {
+        margin: 10;
+        color: lightgrey;
+    }
+
+    .card.gaming {
+        margin: 10;
+        color: yellow;
+    }
+
+
 
 
     .progressBox {
@@ -36,9 +55,38 @@
 
     }
 
+
     .progressFill {
         height: 100%;
         background: linear-gradient(90deg, #7668f9, #03f39f);
+        border-radius: 10px;
+    }
+
+    .progressFill.digital {
+        width: 90%;
+    }
+
+    .progressFill.character {
+        width: 95%;
+    }
+
+    .progressFill.acrylic {
+        width: 85%;
+    }
+
+    .progressFill.concept {
+        width: 90%;
+    }
+
+
+
+
+
+
+
+      .progressFill {
+        height: 100%;
+        background: linear-gradient(90deg, #f40404, #022f5b);
         border-radius: 10px;
     }
 
@@ -59,7 +107,12 @@
     }
 
 
+
+
+
+
 }
+
 
 
 

@@ -1,4 +1,4 @@
-import "./AboutMe.css";
+import "./AboutMe.css"; 
 
 function AboutMe() {
     return (
@@ -25,19 +25,19 @@ function AboutMe() {
 
                         <div className="gridContainer">
                             <div className="card small">
-                                <span>Location</span>
+                                <span>📍Location</span>
                                 <p>Nederland</p>
                             </div>
                             <div className="card small">
-                                <span>Age</span>
+                                <span>🎂Age</span>
                                 <p>21</p>
                             </div>
                             <div className="card small">
-                                <span>Status</span>
+                                <span>⚡Status</span>
                                 <p>Building stuff</p>
                             </div>
                             <div className="card small">
-                                <span>School</span>
+                                <span>🏫School</span>
                                 <p>Deltion College</p>
                             </div>
                         </div>

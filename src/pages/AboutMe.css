@@ -48,8 +48,8 @@
         height: auto;
         align-self: stretch;
         border: 1px solid #2b2c3a;
+        margin: 10px 0;
     }
-
 
 
     .games {
@@ -57,20 +57,6 @@
         border: 1px solid #2d2d3a;
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .wrapper {
         margin: 0 auto;
@@ -109,6 +95,12 @@
     li::marker {
         color: #5947ae;
     }
+
+
+
+
+
+
 
 
 

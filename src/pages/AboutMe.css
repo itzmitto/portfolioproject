@@ -55,7 +55,7 @@
     .games {
         padding: 10px;
         border: 1px solid #2d2d3a;
-        
+
     }
 
 
@@ -105,62 +105,12 @@
         line-height: 1.5;
     }
 
+    li::marker {
+        color: #5947ae;
+    }
 
 
 
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

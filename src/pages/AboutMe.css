@@ -97,13 +97,22 @@
     }
 
 
+}
 
 
+.interests.card {
+    transition: border-color 0.5s;
+}
+
+.interests.card:hover {
+    border-color: #134e41;
+}
 
 
+.games.card {
+    transition: border-color 0.5s;
+}
 
-
-
-
-
+.games.card:hover {
+    border-color: #362e63;
 }

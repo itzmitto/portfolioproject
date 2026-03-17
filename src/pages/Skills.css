@@ -35,7 +35,7 @@
 
     .card.gaming {
         margin: 10;
-        color: yellow;
+        color: lightgrey;
     }
 
 
@@ -55,40 +55,14 @@
 
     }
 
+    /* de 1ste */
+
+
+
 
     .progressFill {
         height: 100%;
         background: linear-gradient(90deg, #7668f9, #03f39f);
-        border-radius: 10px;
-    }
-
-    .progressFill.digital {
-        width: 90%;
-    }
-
-    .progressFill.character {
-        width: 95%;
-    }
-
-    .progressFill.acrylic {
-        width: 85%;
-    }
-
-    .progressFill.concept {
-        width: 90%;
-    }
-
-.card.creative.progressFill {
-    background-color: #03f39f;
-}
-
-
-
-
-
-      .progressFill {
-        height: 100%;
-        background: linear-gradient(90deg, #d3dd13, #6c2bdd);
         border-radius: 10px;
     }
 
@@ -112,8 +86,74 @@
 
 
 
+    /* de 2de */
+
+
+    .progressFill {
+        height: 100%;
+        background: linear-gradient(90deg, #fd4f6f, #7765fa);
+        border-radius: 10px;
+    }
+
+    .progressFill.digital {
+        width: 90%;
+    }
+
+    .progressFill.character {
+        width: 95%;
+    }
+
+    .progressFill.acrylic {
+        width: 85%;
+    }
+
+    .progressFill.concept {
+        width: 90%;
+    }
+
+
+    /* de 3de */
+
+    .progressFill {
+        height: 100%;
+        background: linear-gradient(90deg, #7765fa, #fd4f6f);
+        border-radius: 10px;
+    }
+
+    .progressFill.level {
+        width: 85%;
+    }
+
+    .progressFill.mods {
+        width: 75%;
+    }
+
+    .progressFill.game {
+        width: 90%;
+    }
+
+
+
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

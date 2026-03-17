@@ -61,12 +61,13 @@ function Skills() {
                                 Mijn stijl wisselt tussen realistisch en cartoon-achtig — net wat het project nodig heeft.
                             </p>
 
+
                             <div className="progressBox">
                                 <span>Digital painting</span>
                                 <div className="progressBar">
                                     <div className="progressFill digital"></div>
                                 </div>
-                                <span className="percent">80%</span>
+                                <span className="percent">90%</span>
                             </div>
 
                             <div className="progressBox">
@@ -74,7 +75,7 @@ function Skills() {
                                 <div className="progressBar">
                                     <div className="progressFill character"></div>
                                 </div>
-                                <span className="percent">75%</span>
+                                <span className="percent">95%</span>
                             </div>
 
                             <div className="progressBox">
@@ -82,7 +83,7 @@ function Skills() {
                                 <div className="progressBar">
                                     <div className="progressFill acrylic"></div>
                                 </div>
-                                <span className="percent">90%</span>
+                                <span className="percent">85%</span>
                             </div>
 
                             <div className="progressBox">
@@ -90,7 +91,7 @@ function Skills() {
                                 <div className="progressBar">
                                     <div className="progressFill concept"></div>
                                 </div>
-                                <span className="percent">85%</span>
+                                <span className="percent">90%</span>
                             </div>
 
 
@@ -106,11 +107,46 @@ function Skills() {
                             <p>
                                 Van soulslikes tot cozy games — ik speel én bouw er graag dingen in.
                             </p>
+
+
+                             <div className="progressBox">
+                                <span>Level design</span>
+                                <div className="progressBar">
+                                    <div className="progressFill digital"></div>
+                                </div>
+                                <span className="percent">85%</span>
+                            </div>
+
+                            <div className="progressBox">
+                                <span>Mods and maps</span>
+                                <div className="progressBar">
+                                    <div className="progressFill character"></div>
+                                </div>
+                                <span className="percent">90%</span>
+                            </div>
+
+                            <div className="progressBox">
+                                <span>Game optimization</span>
+                                <div className="progressBar">
+                                    <div className="progressFill acrylic"></div>
+                                </div>
+                                <span className="percent">95%</span>
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     );
 }
 

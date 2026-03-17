@@ -105,7 +105,7 @@
 }
 
 .interests.card:hover {
-    border-color: #134e41;
+    border-color: #1c7b66;
 }
 
 
@@ -114,5 +114,13 @@
 }
 
 .games.card:hover {
-    border-color: #362e63;
+    border-color: #31276a;
+}
+
+.small.card {
+    transition: border-color 0.5s;
+}
+
+.small.card:hover {
+    border-color: #1c7b66;
 }

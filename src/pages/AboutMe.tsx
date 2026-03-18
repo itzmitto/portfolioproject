@@ -4,7 +4,7 @@ function AboutMe() {
     return (
         <div className="aboutMe">
             <div className="wrapper">
-
+ 
                 <h1>── About Me</h1>
                 <p>The human behind the code.</p>
                 <div className="gridContainer">
@@ -25,19 +25,19 @@ function AboutMe() {
 
                         <div className="gridContainer">
                             <div className="card small">
-                                <span>📍Location</span>
+                                <span><i className="fa-solid fa-map-pin"></i>Location</span>
                                 <p>Nederland</p>
                             </div>
                             <div className="card small">
-                                <span>🎂Age</span>
+                                <span><i className="fa-solid fa-cake-candles"></i>Age</span>
                                 <p>21</p>
                             </div>
                             <div className="card small">
-                                <span>⚡Status</span>
+                                <span><i className="fa-solid fa-bolt"></i>Status</span>
                                 <p>Building stuff</p>
                             </div>
                             <div className="card small">
-                                <span>🏫School</span>
+                                <span><i className="fa-solid fa-school"></i>School</span>
                                 <p>Deltion College</p>
                             </div>
                         </div>

@@ -6,6 +6,15 @@
         grid-template-columns: 1fr 1fr;
         gap: 14px;
     }
+    
+    .card.small i {
+        color: red;
+    }
+
+
+
+
+
 
     .card {
         background: #25252f;

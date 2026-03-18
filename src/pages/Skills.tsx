@@ -5,7 +5,7 @@ function Skills() {
         <div className="skills">
             <div className="wrapper">
 
-                <h1>── Skills</h1>
+                <h1>── Skills</h1> 
                 <p>What I create & master.</p>
                 <div className="gridContainer">
 

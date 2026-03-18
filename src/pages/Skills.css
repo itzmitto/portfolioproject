@@ -125,7 +125,12 @@
         }
     }
 
-    
+
+    .card.main {
+        margin: 0 8rem;
+        gap: 1rem;
+    }
+
     .cardRows {
         display: flex;
         margin: 0 8rem;
@@ -140,6 +145,3 @@
 
 
 }
-
-
-

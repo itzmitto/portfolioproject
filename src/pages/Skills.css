@@ -7,6 +7,24 @@
         margin: 50px auto;
     }
 
+    .card.main i {
+        color: orange;
+        margin-right: 0.5rem;
+    }
+
+
+    .card.creative i {
+        color: #f2b9a5;
+        margin-right: 0.5rem;
+    }
+
+    .card.gaming i {
+        color: #584990;
+        margin-right: 0.5rem;
+    }
+
+
+
     .titleBlock {
         grid-column: 1;
         grid-row: 1;
@@ -14,6 +32,7 @@
         padding-top: 10px;
         margin-inline: 9rem;
     }
+
     .titleBlock P {
         color: white;
     }
@@ -33,17 +52,22 @@
     .card.main {
         margin: 10;
         color: lightgrey;
+        border: 1px solid #154439;
     }
 
 
     .card.creative {
         margin: 10;
         color: lightgrey;
+        border: 1px solid #2c274d;
+
     }
 
     .card.gaming {
         margin: 10;
         color: lightgrey;
+        border: 1px solid #472330;
+
     }
 
 
@@ -65,7 +89,6 @@
 
     .progressFill {
         height: 100%;
-        background: linear-gradient(90deg, #7668f9, #03f39f);
         border-radius: 10px;
     }
 
@@ -117,7 +140,7 @@
 
     .card.gaming {
         .progressFill {
-            background: linear-gradient(90deg, #7765fa, #fd4f6f);
+            background: linear-gradient(90deg, #130292, #bd092a);
         }
 
         .progressFill.level {
@@ -153,10 +176,106 @@
 
 
 
+    .card.main {
+        transition: border-color 0.3s ease;
+        position: relative;
+    }
+
+    .card.main::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background: radial-gradient(circle at 50% 0%, rgba(0, 245, 160, 0.08), transparent 70%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+    }
+
+    .card.main:hover {
+        border-color: rgba(0, 245, 160, 0.3);
+    }
+
+    .card.main:hover::before {
+        opacity: 1;
+    }
+
+
+
+    .card.creative {
+        transition: border-color 0.3s ease;
+        position: relative;
+    }
+
+    .card.creative::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background: radial-gradient(circle at 50% 0%, #2c274d, transparent 70%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .card.creative:hover {
+        border-color: #494278;
+    }
+
+    .card.creative:hover::before {
+        opacity: 1;
+    }
+
+    .card.creative>* {
+        position: relative;
+        z-index: 1;
+    }
 
 
 
 
 
-    
+
+
+
+    .card.gaming {
+        transition: border-color 0.3s ease;
+        position: relative;
+    }
+
+    .card.gaming::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background: radial-gradient(circle at 50% 0%, #472330, transparent 70%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .card.gaming:hover {
+        border-color: #743a4f;
+    }
+
+    .card.gaming:hover::before {
+        opacity: 1;
+    }
+
+    .card.gaming>* {
+        position: relative;
+        z-index: 1;
+    }
+
+
+
+
+
+
+
+
+
+
 }

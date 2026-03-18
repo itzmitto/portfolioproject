@@ -12,7 +12,7 @@ function Skills() {
                     </div>
 
                     <div className="card main">
-                        <h3>⚡Web & Code</h3>
+                        <h3><i className="fas fa-bolt"></i>Web & Code</h3>
                         <p>Altijd op zoek naar gave projecten om beter te worden en toffe dingen te laten zien.</p>
 
                         <div className="progressBox">
@@ -50,7 +50,7 @@ function Skills() {
 
                     <div className="cardRows">
                         <div className="card creative">
-                            <h3>🎨 Creatief & Kunst</h3>
+                            <h3><i className="fas fa-palette"></i>Creatief & Kunst</h3>
                             <p>
                                 Ik maak kunst voor m'n huis, maar ook gewoon omdat het leuk is.
                                 Mijn stijl wisselt tussen realistisch en cartoon-achtig — net wat het project nodig heeft.
@@ -88,9 +88,8 @@ function Skills() {
                                 <span className="percent">90%</span>
                             </div>
                         </div>
-
                         <div className="card gaming">
-                            <h3>🎮 Gaming & Game-gerelateerd</h3>
+                            <h3><i className="fa-solid fa-gamepad"></i>Gaming & Game-gerelateerd</h3>
                             <p>
                                 Van soulslikes tot cozy games — ik speel én bouw er graag dingen in.
                             </p>

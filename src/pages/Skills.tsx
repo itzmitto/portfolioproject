@@ -4,10 +4,12 @@ function Skills() {
     return (
         <div className="skills">
             <div className="wrapper">
-
-                <h1>── Skills</h1> 
-                <p>What I create & master.</p>
                 <div className="gridContainer">
+
+                    <div className="titleBlock">
+                        <h1>── Skills</h1>
+                        <p>What I create & master.</p>
+                    </div>
 
                     <div className="card main">
                         <h3>⚡Web & Code</h3>

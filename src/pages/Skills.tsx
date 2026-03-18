@@ -14,8 +14,6 @@ function Skills() {
                             <h3>⚡Web & Code</h3>
                             <p>Altijd op zoek naar gave projecten om beter te worden en toffe dingen te laten zien.</p>
 
-
-
                             <div className="progressBox">
                                 <span>React</span>
                                 <div className="progressBar">
@@ -25,7 +23,7 @@ function Skills() {
                             </div>
 
                             <div className="progressBox">
-                                <span>typescript</span>
+                                <span>TypeScript</span>
                                 <div className="progressBar">
                                     <div className="progressFill typescript"></div>
                                 </div>
@@ -47,10 +45,6 @@ function Skills() {
                                 </div>
                                 <span className="percent">85%</span>
                             </div>
-
-
-
-
                         </div>
                     </div>
 
@@ -58,10 +52,9 @@ function Skills() {
                         <div className="card creative">
                             <h3>🎨 Creatief & Kunst</h3>
                             <p>
-                                Ik maak kunst voor m’n huis, maar ook gewoon omdat het leuk is.
+                                Ik maak kunst voor m'n huis, maar ook gewoon omdat het leuk is.
                                 Mijn stijl wisselt tussen realistisch en cartoon-achtig — net wat het project nodig heeft.
                             </p>
-
 
                             <div className="progressBox">
                                 <span>Digital painting</span>
@@ -94,14 +87,7 @@ function Skills() {
                                 </div>
                                 <span className="percent">90%</span>
                             </div>
-
-
                         </div>
-
-
-
-
-
 
                         <div className="card gaming">
                             <h3>🎮 Gaming & Game-gerelateerd</h3>
@@ -109,11 +95,10 @@ function Skills() {
                                 Van soulslikes tot cozy games — ik speel én bouw er graag dingen in.
                             </p>
 
-
-                             <div className="progressBox">
+                            <div className="progressBox">
                                 <span>Level design</span>
                                 <div className="progressBar">
-                                    <div className="progressFill digital"></div>
+                                    <div className="progressFill level"></div>
                                 </div>
                                 <span className="percent">85%</span>
                             </div>
@@ -121,7 +106,7 @@ function Skills() {
                             <div className="progressBox">
                                 <span>Mods and maps</span>
                                 <div className="progressBar">
-                                    <div className="progressFill character"></div>
+                                    <div className="progressFill mods"></div>
                                 </div>
                                 <span className="percent">90%</span>
                             </div>
@@ -129,25 +114,16 @@ function Skills() {
                             <div className="progressBox">
                                 <span>Game optimization</span>
                                 <div className="progressBar">
-                                    <div className="progressFill acrylic"></div>
+                                    <div className="progressFill game"></div>
                                 </div>
                                 <span className="percent">95%</span>
                             </div>
-
-
-
-                        </div>
-
-
-
-
-
-
-
                         </div>
                     </div>
+
                 </div>
             </div>
+        </div>
     );
 }
 

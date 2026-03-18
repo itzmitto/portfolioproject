@@ -140,11 +140,71 @@
 
 }
 
+/* 
 
 
 
+    .card {
+        padding: 20px;
+        border-radius: 20px;
+        color: lightgrey;
+        background: #191921;
+        margin: 20px 0;
+    }
 
+    .progressBox {
+        margin-top: 15px;
+    }
 
+    .progressBar {
+        width: 100%;
+        height: 5px;
+        background: #2a2a2a;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 5px 0;
+    }
+
+    .progressFill {
+        height: 100%;
+        border-radius: 10px;
+    }
+
+     ⚡ Web & Code — paars naar groen 
+    .card.main {
+        .progressFill {
+            background: linear-gradient(90deg, #7668f9, #03f39f);
+        }
+
+        .progressFill.react     { width: 80%; }
+        .progressFill.typescript { width: 75%; }
+        .progressFill.html      { width: 90%; }
+        .progressFill.laravel   { width: 85%; }
+    }
+
+     🎨 Creatief & Kunst — roze naar paars 
+    .card.creative {
+        .progressFill {
+            background: linear-gradient(90deg, #fd4f6f, #7765fa);
+        }
+
+        .progressFill.digital   { width: 90%; }
+        .progressFill.character { width: 95%; }
+        .progressFill.acrylic   { width: 85%; }
+        .progressFill.concept   { width: 90%; }
+    }
+
+     🎮 Gaming — paars naar roze (omgekeerd van creative) 
+    .card.gaming {
+        .progressFill {
+            background: linear-gradient(90deg, #7765fa, #fd4f6f);
+        }
+
+        .progressFill.level { width: 85%; }
+        .progressFill.mods  { width: 90%; }
+        .progressFill.game  { width: 95%; }
+    }
+} */
 
 
 

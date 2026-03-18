@@ -9,46 +9,44 @@ function Skills() {
                 <p>What I create & master.</p>
                 <div className="gridContainer">
 
-                    <div>
-                        <div className="card main">
-                            <h3>⚡Web & Code</h3>
-                            <p>Altijd op zoek naar gave projecten om beter te worden en toffe dingen te laten zien.</p>
+                    <div className="card main">
+                        <h3>⚡Web & Code</h3>
+                        <p>Altijd op zoek naar gave projecten om beter te worden en toffe dingen te laten zien.</p>
 
-                            <div className="progressBox">
-                                <span>React</span>
-                                <div className="progressBar">
-                                    <div className="progressFill react"></div>
-                                </div>
-                                <span className="percent">80%</span>
+                        <div className="progressBox">
+                            <span>React</span>
+                            <div className="progressBar">
+                                <div className="progressFill react"></div>
                             </div>
+                            <span className="percent">80%</span>
+                        </div>
 
-                            <div className="progressBox">
-                                <span>TypeScript</span>
-                                <div className="progressBar">
-                                    <div className="progressFill typescript"></div>
-                                </div>
-                                <span className="percent">75%</span>
+                        <div className="progressBox">
+                            <span>TypeScript</span>
+                            <div className="progressBar">
+                                <div className="progressFill typescript"></div>
                             </div>
+                            <span className="percent">75%</span>
+                        </div>
 
-                            <div className="progressBox">
-                                <span>HTML / CSS</span>
-                                <div className="progressBar">
-                                    <div className="progressFill html"></div>
-                                </div>
-                                <span className="percent">90%</span>
+                        <div className="progressBox">
+                            <span>HTML / CSS</span>
+                            <div className="progressBar">
+                                <div className="progressFill html"></div>
                             </div>
+                            <span className="percent">90%</span>
+                        </div>
 
-                            <div className="progressBox">
-                                <span>Laravel</span>
-                                <div className="progressBar">
-                                    <div className="progressFill laravel"></div>
-                                </div>
-                                <span className="percent">85%</span>
+                        <div className="progressBox">
+                            <span>Laravel</span>
+                            <div className="progressBar">
+                                <div className="progressFill laravel"></div>
                             </div>
+                            <span className="percent">85%</span>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="cardRows">
                         <div className="card creative">
                             <h3>🎨 Creatief & Kunst</h3>
                             <p>

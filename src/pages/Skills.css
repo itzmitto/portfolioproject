@@ -133,10 +133,16 @@
 
 }
 
+.cardRows {
+    display: flex;
+    margin: 0 5rem;
+    gap: 5rem
+}
 
 
-
-
+.cardRows div {
+    flex: 1;
+}
 
 
 

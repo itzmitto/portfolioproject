@@ -12,8 +12,11 @@
         grid-row: 1;
         align-self: start;
         padding-top: 10px;
+        margin-inline: 9rem;
     }
-
+    .titleBlock P {
+        color: white;
+    }
 
     h1 {
         color: #03ed9d;
@@ -22,7 +25,6 @@
     .card {
         padding: 20px;
         border-radius: 20px;
-        color: white;
         background: #191921;
         margin: 0px 0;
     }
@@ -150,4 +152,11 @@
 
 
 
+
+
+
+
+
+
+    
 }

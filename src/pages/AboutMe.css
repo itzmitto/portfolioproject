@@ -1,4 +1,4 @@
-.aboutMe {  
+.aboutMe {
 
     .gridContainer {
         width: fit-content;
@@ -6,7 +6,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 14px;
     }
-    
+
     .card.small i {
         color: red;
     }
@@ -123,7 +123,7 @@
 }
 
 .games.card:hover {
-    border-color: #31276a;
+    border-color: #5749a9;
 }
 
 .small.card {

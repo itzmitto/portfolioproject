@@ -1,13 +1,13 @@
 .projects {
-    
+
     .gridContainer {
         display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 25px;
         justify-content: center;
         margin: 50px auto;
         max-width: 1000px;
     }
-
 
     h1 {
         color: #03ed9d;
@@ -41,21 +41,38 @@
 
     .card.main {
         color: rgb(217, 255, 0);
+        min-height: 350px;
+        /* verticaal langer */
+        grid-column: 1 / -1;
+        /* volle breedte van de grid */
+        padding: 2rem;
+        /* wat meer ruimte binnenin */
     }
 
     .card.coming {
-        color: blueviolet;
-    }
+    color: blueviolet;
+    min-height: 150px; 
+}
 
 
     .card.art {
         color: lightgreen;
+        min-height: 250px;
+        padding: 10rem;
+        
+    }
+
+
+
+    .cardRows {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
     }
 
 
 
 
-  
 
 
 

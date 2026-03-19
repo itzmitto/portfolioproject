@@ -1,7 +1,30 @@
 .projects {
 
 
-    
+    .gridContainer {
+        display: grid;
+        gap: 25px;
+        justify-content: center;
+        margin: 50px auto;
+        max-width: 1000px;
+    }
+
+    .card.main {
+        color: red;
+    }
+
+    .card.main h1 {
+        color: yellow;
+    }
+
+
+
+
+    .card {
+        background: #1d2029;
+        border-radius: 20px;
+        border: 1px solid #00ffaa;
+    }
 
 
 
@@ -12,21 +35,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-} 
+}

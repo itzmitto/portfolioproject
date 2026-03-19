@@ -1,6 +1,7 @@
 .projects {
 
 
+
     .gridContainer {
         display: grid;
         gap: 25px;
@@ -10,13 +11,25 @@
     }
 
     .card.main {
-        color: red;
+        color: rgb(217, 255, 0);
+    }
+
+    h1 { 
+        color: #03ed9d;
+    }
+    p {
+        color: lightgrey;
     }
 
     .card.main h1 {
-        color: yellow;
+        color: white;
     }
-
+    .card.main p {
+        color: lightgrey;
+    }
+    .techStack {
+        color: rgb(0, 255, 255);
+    }
 
 
 

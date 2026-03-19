@@ -1,7 +1,5 @@
 .projects {
-
-
-
+    
     .gridContainer {
         display: grid;
         gap: 25px;
@@ -10,13 +8,11 @@
         max-width: 1000px;
     }
 
-    .card.main {
-        color: rgb(217, 255, 0);
-    }
 
-    h1 { 
+    h1 {
         color: #03ed9d;
     }
+
     p {
         color: lightgrey;
     }
@@ -24,9 +20,13 @@
     .card.main h1 {
         color: white;
     }
+
     .card.main p {
         color: lightgrey;
     }
+
+
+    /* dit later goed maken  */
     .techStack {
         color: rgb(0, 255, 255);
     }
@@ -38,6 +38,25 @@
         border-radius: 20px;
         border: 1px solid #00ffaa;
     }
+
+    .card.main {
+        color: rgb(217, 255, 0);
+    }
+
+    .card.coming {
+        color: blueviolet;
+    }
+
+
+    .card.art {
+        color: lightgreen;
+    }
+
+
+
+
+  
+
 
 
 

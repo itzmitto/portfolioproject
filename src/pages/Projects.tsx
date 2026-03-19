@@ -37,7 +37,8 @@ function Projects() {
                     <div className="cardRows">
                         <div className="card coming">
                             <div className="cardHeader">
-                                <span className="tag">Game</span>
+                                <span className="tag">02</span>
+                                <h1>COMING SOON</h1>
                             </div>
                             <p>Een uitgebreide mod voor een soulslike game met custom levels,
                                 enemy AI-tweaks en handgemaakte concept art als basis.</p>
@@ -55,7 +56,8 @@ function Projects() {
 
                         <div className="card art">
                             <div className="cardHeader">
-                                <span className="tag">Art</span>
+                                <span className="tag">03</span>
+                                <h1>DIGITAL ART SERIES</h1>
                             </div>
                             <p>Een reeks van 10 digitale karakterillustraties in een mix van
                                 realisme en cartoon — bedoeld voor print en online publicatie.</p>

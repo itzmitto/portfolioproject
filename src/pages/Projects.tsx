@@ -40,7 +40,7 @@ function Projects() {
                                 <span className="tag">Game</span>
                             </div>
                             <p>Een uitgebreide mod voor een soulslike game met custom levels,
-                            enemy AI-tweaks en handgemaakte concept art als basis.</p>
+                                enemy AI-tweaks en handgemaakte concept art als basis.</p>
 
                             <div className="techStack">
                                 <span>Level design</span>
@@ -58,7 +58,7 @@ function Projects() {
                                 <span className="tag">Art</span>
                             </div>
                             <p>Een reeks van 10 digitale karakterillustraties in een mix van
-                            realisme en cartoon — bedoeld voor print en online publicatie.</p>
+                                realisme en cartoon — bedoeld voor print en online publicatie.</p>
                             <div className="techStack">
                                 <span>Digital painting</span>
                                 <span>Character design</span>

@@ -7,7 +7,55 @@
         justify-content: center;
         margin: 50px auto;
         max-width: 1000px;
+        padding: 2rem 0;
+        
     }
+
+
+
+
+
+
+
+    
+    /*     hier houden later bekijken of ik het nodig heb 
+    .wrapper {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    } */
+
+
+
+
+
+/*      hier houden later bekijken dit is de thing ive hult thing letter die groen alleen wordt
+     Title block
+    .titleBlock h1 {
+        color: #03ed9d;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    } */
+
+
+    /* hier houden later bekijken dit is de thing ive hult thing letter die groen alleen wordt
+    .titleBlock h2 { 
+        color: white;
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 0 0 1rem 0;
+        line-height: 1.1;
+    } */
+
+/*     hier houden later bekijken dit is de thing ive hult thing letter die groen alleen wordt
+    .titleBlock p {
+        color: lightgrey;
+        max-width: 480px;
+        line-height: 1.6;
+    } */
+
 
     h1 {
         color: #03ed9d;
@@ -26,6 +74,7 @@
     }
 
 
+    
     /* dit later goed maken  */
     .techStack {
         color: rgb(0, 255, 255);
@@ -50,16 +99,16 @@
     }
 
     .card.coming {
-    color: blueviolet;
-    min-height: 150px; 
-}
+        color: blueviolet;
+        min-height: 150px;
+    }
 
 
     .card.art {
         color: lightgreen;
         min-height: 250px;
         padding: 10rem;
-        
+
     }
 
 
@@ -76,12 +125,156 @@
 
 
 
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+   
+
+
+    Cards base
+    .card {
+        background: #1d2029;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 2rem;
+        position: relative;
+    }
+
+    Card header row: number + badge
+    .cardHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 1.2rem;
+    }
+
+    .cardNumber {
+        font-size: 2rem;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.15);
+        line-height: 1;
+    }
+
+    Badges
+    .badge {
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        padding: 0.35rem 0.75rem;
+        border-radius: 999px;
+    }
+
+    .badge.live {
+        background: transparent;
+        border: 1.5px solid #03ed9d;
+        color: #03ed9d;
+    }
+
+    .badge.inprogress {
+        background: transparent;
+        border: 1.5px solid #7c3aed;
+        color: #a78bfa;
+    }
+
+    .badge.ongoing {
+        background: transparent;
+        border: 1.5px solid #e11d48;
+        color: #fb7185;
+    }
+
+    Card titles
+    .card h3 {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        margin: 0 0 0.4rem 0;
+    }
+
+    .cardType {
+        color: rgba(255, 255, 255, 0.35);
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin: 0 0 0.8rem 0;
+    }
+
+    .cardDesc {
+        color: lightgrey;
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin: 0 0 1.5rem 0;
+    }
+
+    Main card — full width
+    .card.main {
+        width: 100%;
+    }
+
+    Two smaller cards side by side
+    .cardRows {
+        display: flex;
+        gap: 25px;
+    }
+
+    .cardRows .card {
+        flex: 1;
+        min-height: 260px;
+    }
+
+    Tech stack tags
+    .techStack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .techStack span {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 0.3rem 0.7rem;
+        border-radius: 6px;
+        border: 1px solid;
+    }
+
+    .card.main .techStack span {
+        color: #03ed9d;
+        border-color: rgba(3, 237, 157, 0.35);
+        background: rgba(3, 237, 157, 0.06);
+    }
+
+    .card.coming .techStack span {
+        color: #a78bfa;
+        border-color: rgba(167, 139, 250, 0.35);
+        background: rgba(167, 139, 250, 0.06);
+    }
+
+    .card.art .techStack span {
+        color: #fb7185;
+        border-color: rgba(251, 113, 133, 0.35);
+        background: rgba(251, 113, 133, 0.06);
+    }
+
+    Responsive
+    @media (max-width: 640px) {
+        .cardRows {
+            flex-direction: column;
+        }
+
+        .titleBlock h2 {
+            font-size: 2rem;
+        }
+    }
+} */

@@ -7,14 +7,16 @@ function Projects() {
                 <div className="gridContainer">
 
                     <div className="titleBlock">
-                        <h1>── Projects</h1>
-                        <p>What I've built & shipped.</p>
+                        <h1>── My work</h1>
+                        <h2>Things I've built.</h2>
+                        <p>A mix of web projects, creative experiments, and things I'm currently building. Always working on something new.</p>
                     </div>
 
                     <div className="card main">
                         <div className="cardHeader">
-                            <span className="tag">Web</span>
-                            <span className="status live">● Live</span>
+                            <span className="tag">01</span>
+                           <h1>PORTFOLIO WEBSITE</h1>
+                           <p>web appb</p>
                         </div>
                         <h3><i className="fas fa-globe"></i> Portfolio Website</h3>
                         <p>

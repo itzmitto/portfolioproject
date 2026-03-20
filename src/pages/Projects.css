@@ -8,7 +8,7 @@
         margin: 50px auto;
         max-width: 1000px;
         padding: 2rem 0;
-        
+
     }
 
 
@@ -17,7 +17,6 @@
 
 
 
-    
     /*     hier houden later bekijken of ik het nodig heb 
     .wrapper {
         max-width: 1000px;
@@ -29,7 +28,7 @@
 
 
 
-/*      hier houden later bekijken dit is de thing ive hult thing letter die groen alleen wordt
+    /*      hier houden later bekijken dit is de thing ive hult thing letter die groen alleen wordt
      Title block
     .titleBlock h1 {
         color: #03ed9d;
@@ -49,7 +48,7 @@
         line-height: 1.1;
     } */
 
-/*     hier houden later bekijken dit is de thing ive hult thing letter die groen alleen wordt
+    /*     hier houden later bekijken dit is de thing ive hult thing letter die groen alleen wordt
     .titleBlock p {
         color: lightgrey;
         max-width: 480px;
@@ -74,11 +73,45 @@
     }
 
 
-    
+
     /* dit later goed maken  */
     .techStack {
         color: rgb(0, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
     }
+
+    /* dit later goed maken  */
+    .techStack span {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 0.3rem 0.7rem;
+        border-radius: 6px;
+        border: 1px solid;
+    }
+
+    .card.main .techStack span {
+        color: #03ed9d;
+        border-color: rgba(6, 255, 168, 0.35);
+        background: rgba(3, 237, 157, 0.06);
+    }
+
+    .card.coming .techStack span {
+        color: #a78bfa;
+        border-color: rgba(167, 139, 250, 0.35);
+        background: rgba(167, 139, 250, 0.06);
+    }
+
+    .card.art .techStack span {
+        color: #fb7185;
+        border-color: rgba(251, 113, 133, 0.35);
+        background: rgba(251, 113, 133, 0.06);
+    }
+
+
+
+
 
 
 
@@ -87,9 +120,6 @@
         border-radius: 20px;
         border: 1px solid #00ffaa;
     }
-
-
-
 
 
 
@@ -102,6 +132,10 @@
         padding: 2rem;
         /* wat meer ruimte binnenin */
     }
+
+
+
+
 
     .card.coming {
         color: blueviolet;
@@ -118,13 +152,49 @@
 
     }
 
-
-
     .cardRows {
         display: flex;
         gap: 1rem;
         align-items: flex-start;
     }
+
+
+
+
+
+    .badge {
+        font-size: 1rem;
+        letter-spacing: 0.05em;
+        padding: 0.5rem 1rem;
+        border-radius: 10rem;
+    }
+
+    .badge.live {
+        background: transparent;
+        border: 2px solid #03ed9d;
+        color: #03ed9d;
+    }
+
+    .badge.inprogress {
+        background: transparent;
+        border: 1.5px solid #7c3aed;
+        color: #a78bfa;
+    }
+
+    .badge.ongoing {
+        background: transparent;
+        border: 1.5px solid #e11d48;
+        color: #fb7185;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,139 +212,7 @@
 
 
 
-/* 
 
 
 
-   
 
-
-    
-
-    Card header row: number + badge
-    .cardHeader {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 1.2rem;
-    }
-
-    .cardNumber {
-        font-size: 2rem;
-        font-weight: 700;
-        color: rgba(255, 255, 255, 0.15);
-        line-height: 1;
-    }
-
-    Badges
-    .badge {
-        font-size: 0.7rem;
-        font-weight: 700;
-        letter-spacing: 0.08em;
-        padding: 0.35rem 0.75rem;
-        border-radius: 999px;
-    }
-
-    .badge.live {
-        background: transparent;
-        border: 1.5px solid #03ed9d;
-        color: #03ed9d;
-    }
-
-    .badge.inprogress {
-        background: transparent;
-        border: 1.5px solid #7c3aed;
-        color: #a78bfa;
-    }
-
-    .badge.ongoing {
-        background: transparent;
-        border: 1.5px solid #e11d48;
-        color: #fb7185;
-    }
-
-    Card titles
-    .card h3 {
-        color: white;
-        font-size: 1.4rem;
-        font-weight: 900;
-        text-transform: uppercase;
-        letter-spacing: 0.03em;
-        margin: 0 0 0.4rem 0;
-    }
-
-    .cardType {
-        color: rgba(255, 255, 255, 0.35);
-        font-size: 0.75rem;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        margin: 0 0 0.8rem 0;
-    }
-
-    .cardDesc {
-        color: lightgrey;
-        font-size: 0.9rem;
-        line-height: 1.6;
-        margin: 0 0 1.5rem 0;
-    }
-
-    Main card — full width
-    .card.main {
-        width: 100%;
-    }
-
-    Two smaller cards side by side
-    .cardRows {
-        display: flex;
-        gap: 25px;
-    }
-
-    .cardRows .card {
-        flex: 1;
-        min-height: 260px;
-    }
-
-    Tech stack tags
-    .techStack {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
-
-    .techStack span {
-        font-size: 0.75rem;
-        font-weight: 600;
-        padding: 0.3rem 0.7rem;
-        border-radius: 6px;
-        border: 1px solid;
-    }
-
-    .card.main .techStack span {
-        color: #03ed9d;
-        border-color: rgba(3, 237, 157, 0.35);
-        background: rgba(3, 237, 157, 0.06);
-    }
-
-    .card.coming .techStack span {
-        color: #a78bfa;
-        border-color: rgba(167, 139, 250, 0.35);
-        background: rgba(167, 139, 250, 0.06);
-    }
-
-    .card.art .techStack span {
-        color: #fb7185;
-        border-color: rgba(251, 113, 133, 0.35);
-        background: rgba(251, 113, 133, 0.06);
-    }
-
-    Responsive
-    @media (max-width: 640px) {
-        .cardRows {
-            flex-direction: column;
-        }
-
-        .titleBlock h2 {
-            font-size: 2rem;
-        }
-    }
-} */

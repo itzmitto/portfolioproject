@@ -1,4 +1,4 @@
-import "./Skills.css";
+import "./Skills.css";  
 
 function Skills() {
     return (
@@ -53,7 +53,7 @@ function Skills() {
                             <h3><i className="fas fa-palette"></i>Creatief & Kunst</h3>
                             <p>
                                 Ik maak kunst voor m'n huis, maar ook gewoon omdat het leuk is.
-                                Mijn stijl wisselt tussen realistisch en cartoon-achtig — net wat het project nodig heeft.
+                                Mijn stijl wisselt tussen realistisch en cartoonachtig net wat het project nodig heeft.
                             </p>
 
                             <div className="progressBox">
@@ -89,9 +89,9 @@ function Skills() {
                             </div>
                         </div>
                         <div className="card gaming">
-                            <h3><i className="fa-solid fa-gamepad"></i>Gaming & Game-gerelateerd</h3>
+                            <h3><i className="fa-solid fa-gamepad"></i>Gaming & Gamegerelateerd</h3>
                             <p>
-                                Van soulslikes tot cozy games — ik speel én bouw er graag dingen in.
+                                Van soulslikes tot cozy games ik speel en bouw er graag dingen in.
                             </p>
 
                             <div className="progressBox">
@@ -127,3 +127,20 @@ function Skills() {
 }
 
 export default Skills;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

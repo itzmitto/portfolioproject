@@ -21,7 +21,7 @@ function Home() {
         </button>
       </div>
 
-
+  
 
 {/* dit fizen */}
 
@@ -48,7 +48,7 @@ function Home() {
 
 
 
-        
+
       </div>
     </div>
   );

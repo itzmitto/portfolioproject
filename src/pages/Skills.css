@@ -265,6 +265,8 @@
         z-index: 1;
     }
 
+}
+
     @keyframes fadeUp {
         from {
             opacity: 0;
@@ -304,6 +306,3 @@
     .card.gaming {
         animation: fadeUp 0.6s ease 0.4s both;
     }
-
-
-}

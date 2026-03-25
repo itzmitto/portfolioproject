@@ -21,13 +21,17 @@ function Home() {
         </button>
       </div>
 
+
+
+{/* dit fizen */}
+
       <div className="stats-bar">
         <div className="stat-item">
           <span className="stat-value">21</span>
           <span className="stat-label">YEARS OLD</span>
         </div>
         <div className="stat-item">
-          <span className="stat-value">Nl</span>
+          <span className="stat-value">NL</span>
           <span className="stat-label">Netherlands</span>
         </div>
         <div className="stat-item">
@@ -38,6 +42,13 @@ function Home() {
           <span className="stat-value">♦</span>
           <span className="stat-label">Building stuff</span>
         </div>
+
+
+
+
+
+
+        
       </div>
     </div>
   );

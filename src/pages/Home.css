@@ -1,4 +1,4 @@
-.Home-container { 
+.Home-container {   
   h1 {
     margin: 0;
     font-size: 3rem;
@@ -44,16 +44,21 @@
 
 .Home-container h1 {
     display: flex;
+    margin-inline: 1rem;
     align-items: center;
     gap: 10px;
     font-family: "Times New Roman", serif;
     font-size: 0.75rem;
-    color: var(--neon);
+    color: #03ed9d;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin-bottom: 24px;
     animation: fadeUp 0.5s 0.1s ease both;
 }
+
+
+
+
 
 
 

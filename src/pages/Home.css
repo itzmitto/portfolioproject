@@ -1,4 +1,4 @@
-.Home-container {
+.Home-container { 
   h1 {
     margin: 0;
     font-size: 3rem;
@@ -42,6 +42,23 @@
   border-color: #03ed9d;
 }
 
+.Home-container h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Times New Roman", serif;
+    font-size: 0.75rem;
+    color: var(--neon);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    animation: fadeUp 0.5s 0.1s ease both;
+}
+
+
+
+
+
 
 .stats-bar {
   display: flex;
@@ -64,4 +81,12 @@
   align-items: center;
   gap: 5px;
 
+}
+
+.stats-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }

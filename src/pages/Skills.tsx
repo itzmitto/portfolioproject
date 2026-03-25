@@ -1,7 +1,7 @@
 import "./Skills.css";    
 
 function Skills() {
-    return (
+    return ( 
         <div className="skills">
             <div className="wrapper">
                 <div className="gridContainer">

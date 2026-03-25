@@ -1,5 +1,5 @@
  /* ANIMATIONS */            
-@keyframes fadeUp {
+@keyframes fadeUp {   
   from {
     opacity: 0;
     transform: translateY(24px);
@@ -396,7 +396,7 @@
 
 
 
-/* 
+/*  dit is degene die ik had bovenste is nieuwe fixen 
 
 .Home-container {         
     h1 {

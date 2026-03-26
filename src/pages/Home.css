@@ -5,6 +5,10 @@
     color: #03ed9d;
     padding-top: 40px;
   }
+
+  p {
+    color: #898999;
+  }
 }
 
 .button-group {

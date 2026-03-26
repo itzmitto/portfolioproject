@@ -6,35 +6,34 @@ function Home() {
 
   return (
     <div className="Home-container">
-      <h1> · Developer · Artist · Gamer </h1>
-      <h2>Hey, I'm Andre. I build things for the web.</h2>
-      <p>21 years old developer from the Netherlands. I create with code
-        and art blending digital creativity with clean, purposeful engineering.
-      </p>
+      
+      <div className="content-wrapper">
+        <h1> · Developer · Artist · Gamer </h1>
+        <h2>Hey, I'm Andre. I build things for the web.</h2>
+        <p>
+          21 years old developer from the Netherlands. I create with code
+          and art blending digital creativity with clean, purposeful engineering.
+        </p>
 
-      <div className="button-group">
-        <button className="btn-primary" onClick={() => navigate('/Projects')}>
-          View Projects
-        </button>
-        <button className="btn-secondary" onClick={() => navigate('/Contact')}>
-          Contact Me
-        </button>
+        <div className="button-group">
+          <button className="btn-primary" onClick={() => navigate('/Projects')}>
+            View Projects
+          </button>
+          <button className="btn-secondary" onClick={() => navigate('/Contact')}>
+            Contact Me
+          </button>
+        </div>
+
+        <div className="tech-pills">
+          <span className="pills">React</span>
+          <span className="pills">Typescript</span>
+          <span className="pills">CSS</span>
+          <span className="pills">Laravel</span>
+          <span className="pills">HTML</span>
+        </div>
       </div>
 
-      <div>
-        <span className="pills">React</span>
-        <span className="pills">Typescript</span>
-        <span className="pills">CSS</span>
-        <span className="pills">Laravel</span>
-        <span className="pills">HTML</span>
-      </div>
 
-
-
-
-
-
-      {/* dit fizen */}
 
       <div className="stats-bar">
         <div className="stat-item">
@@ -53,13 +52,9 @@ function Home() {
           <span className="stat-value">♦</span>
           <span className="stat-label">Building stuff</span>
         </div>
-
-
-
-
-
-
-
+      
+      
+      
       </div>
     </div>
   );

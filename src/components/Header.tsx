@@ -1,12 +1,12 @@
 import "./Header.css";
 import { NavLink } from "react-router";
 
-function Header() {  
+function Header() {
     return (
         <header>
 
             <h1><NavLink to="/" style={{ textDecoration: "none", color: "#03ed9d" }}>
-                PORTFOLIO</NavLink></h1>  
+                PORTFOLIO</NavLink></h1>
 
             <nav>
                 <NavLink to="/" end>
@@ -24,13 +24,13 @@ function Header() {
                     <span className="nav-number">05. </span>contact
                 </NavLink>
             </nav>
+
+            <span className="status-wrapper">
+                <span className="sdot" />
+                <h3>Available for work</h3>
+            </span>        
         </header>
     )
 }
 
 export default Header;
-
-
-
-
-

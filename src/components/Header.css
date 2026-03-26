@@ -1,8 +1,8 @@
 header {
     background-color: transparent;
     padding: 20px 40px;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 100px;
     border-bottom: 1px solid #262630;
@@ -13,6 +13,11 @@ header {
         font-family: "Times New Roman", serif;
     }
 
+    h3 {
+        color: darkgrey;
+        font-size: 0.8rem;
+        margin-left: right;
+    }
 
     nav {
         gap: 20px;
@@ -35,4 +40,34 @@ header {
 
 
 
+    .status-wrapper {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sdot {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background: #03ed9d;
+        box-shadow: 0 0 20px #4efec0;
+        animation: pulse 3s ease-in-out infinite;
+    }
+
+}
+
+
+
+@keyframes pulse {
+
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 20px #03ed9d;
+    }
+
+    50% {
+        opacity: 0;
+        box-shadow: 0 0 0px #03ed9d;
+    }
 }

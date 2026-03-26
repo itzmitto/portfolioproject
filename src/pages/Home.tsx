@@ -10,10 +10,14 @@ function Home() {
       <div className="content-wrapper">
         <h1> · Developer · Artist · Gamer </h1>
         
-        <span className="ht-line">Hey, I'm</span>
-        <span className="ht-name">Andre<span className="ht-dot">.</span>
-        </span>
-        <span className="ht-sub">I build things<br />for the web.</span>
+        <div className="hero-text">
+          <div className="ht-line">HEY, I'M</div>
+          <div className="ht-name">
+            ANDRE
+            <span className="ht-dot">■</span>
+          </div>
+          <div className="ht-sub">I BUILD THINGS FOR THE WEB.</div>
+        </div>
 
         <p>
           21 years old developer from the Netherlands. I create with code

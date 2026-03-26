@@ -6,23 +6,47 @@
     padding-top: 40px;
   }
 
-  /* h2 {
-    color: white;
+.ht-line {
+  color: lightgrey;          
+  margin-top: 10px;   
+  font-size: 18px;          
+  letter-spacing: 0.3px;
+  max-width: 120px;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-family: "Times New Roman", serif;
+}
+
+.hero-text {
+  text-transform: uppercase;
+  line-height: 1;          
+  font-family: "Times New Roman", serif;
+  font-weight: 1000;       
+}
+
+.ht-name {
+  color: white;
+  font-size: 100px;            
+  font-weight: 1000;       
+  font-family: "DM Sans", sans-serif;
+}
+
+.ht-dot {
+  color: #03ed9d;
+  font-size: 0.4em;           
+}
+
+ .ht-sub {
+    color: lightgrey;
     margin-top: 10px;
     letter-spacing: 0.3px;
     opacity: 0.8;
-    max-width: 120px;
     font-size: 30px;
-  } */
-
-  .ht-line {
-    color: red;
-  }
-
-
+ }
 
   p {
-    color: #898999;
+    color: lightgrey;
     font-size: 18px;
     line-height: 1.5;
     max-width: 500px;
@@ -102,16 +126,16 @@
 }
 
 .Home-container {
-  position: relative;    
-  padding: 2rem 0;      
+  position: relative;
+  padding: 2rem 0;
 }
 
 .content-wrapper {
-  margin-left: 450px;     
+  margin-left: 450px;
 }
 
 .stats-bar {
-  margin-left: 0;        
+  margin-left: 0;
 }
 
 
@@ -169,6 +193,14 @@
 
 
 
+.sdot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--neon);
+  box-shadow: 0 0 8px var(--neon);
+  animation: pulse 2s ease infinite;
+}
 
 
 
@@ -181,12 +213,66 @@
 
 
 
- .sdot {
-        width: 7px;
-        height: 7px;
-        border-radius: 50%;
-        background: var(--neon);
-        box-shadow: 0 0 8px var(--neon);
-        animation: pulse 2s ease infinite;
+
+
+
+
+
+
+
+
+ /* @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(24px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
-
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.6;
+          transform: scale(0.85);
+        }
+      }
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-8px);
+        }
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+      @keyframes scan {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(200%);
+        }
+      } */

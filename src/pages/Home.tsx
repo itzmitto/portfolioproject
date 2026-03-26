@@ -6,10 +6,15 @@ function Home() {
 
   return (
     <div className="Home-container">
-      
+
       <div className="content-wrapper">
         <h1> · Developer · Artist · Gamer </h1>
-        <h2>Hey, I'm Andre. I build things for the web.</h2>
+        
+        <span className="ht-line">Hey, I'm</span>
+        <span className="ht-name">Andre<span className="ht-dot">.</span>
+        </span>
+        <span className="ht-sub">I build things<br />for the web.</span>
+
         <p>
           21 years old developer from the Netherlands. I create with code
           and art blending digital creativity with clean, purposeful engineering.
@@ -52,9 +57,9 @@ function Home() {
           <span className="stat-value">♦</span>
           <span className="stat-label">Building stuff</span>
         </div>
-      
-      
-      
+
+
+
       </div>
     </div>
   );

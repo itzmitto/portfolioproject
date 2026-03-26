@@ -1,4 +1,4 @@
-import "./Home.css";  
+import "./Home.css";
 import { useNavigate } from 'react-router';
 
 function Home() {
@@ -21,9 +21,20 @@ function Home() {
         </button>
       </div>
 
-  
+      <div>
+        <span className="pills">React</span>
+        <span className="pills">Typescript</span>
+        <span className="pills">CSS</span>
+        <span className="pills">Laravel</span>
+        <span className="pills">HTML</span>
+      </div>
 
-{/* dit fizen */}
+
+
+
+
+
+      {/* dit fizen */}
 
       <div className="stats-bar">
         <div className="stat-item">

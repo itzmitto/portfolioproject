@@ -3,6 +3,7 @@
     margin: 0;
     font-size: 3rem;
     color: #03ed9d;
+    padding-top: 40px;
   }
 }
 
@@ -45,6 +46,7 @@
 .Home-container h1 {
     display: flex;
     margin-inline: 1rem;
+    /* margin-top: 20px; */
     align-items: center;
     gap: 10px;
     font-family: "Times New Roman", serif;

@@ -6,8 +6,18 @@
     padding-top: 40px;
   }
 
+  h2 {
+    color: white;
+  }
+
   p {
     color: #898999;
+    font-size: 18px;
+    line-height: 1.5;        
+    max-width: 500px;        
+    margin-top: 20px;        
+    letter-spacing: 0.3px;
+    opacity: 0.8;
   }
 }
 

@@ -7,9 +7,9 @@ function Home() {
   return (
     <div className="Home-container">
       <h1> · Developer · Artist · Gamer </h1>
-      <p>Hey, I'm Andre. I build things for the web.</p>
-      <p>21-year-old developer from the Netherlands. I create with code
-        and art — blending digital creativity with clean, purposeful engineering.
+      <h2>Hey, I'm Andre. I build things for the web.</h2>
+      <p>21 years old developer from the Netherlands. I create with code
+        and art blending digital creativity with clean, purposeful engineering.
       </p>
 
       <div className="button-group">

@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./Home.css";  
 import { useNavigate } from 'react-router';
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
 
       <div className="content-wrapper">
         <h1> · Developer · Artist · Gamer </h1>
-        
+
         <div className="hero-text">
           <div className="ht-line">HEY, I'M</div>
           <div className="ht-name">
@@ -44,29 +44,39 @@ function Home() {
 
 
 
-      <div className="stats-bar">
-        <div className="stat-item">
-          <span className="stat-value">21</span>
-          <span className="stat-label">YEARS OLD</span>
+
+
+      <footer className="footer">
+        <div className="stats-container">
+          <div className="stat-item">
+            <span className="stat-value">21</span>
+            <span className="stat-label">YEARS OLD</span>
+          </div>
+          <div className="stat-item">
+            <span className="stat-value">NL</span>
+            <span className="stat-label">Netherlands</span>
+          </div>
+          <div className="stat-item">
+            <span className="stat-value">∞</span>
+            <span className="stat-label">Hours gamed</span>
+          </div>
+          <div className="stat-item">
+            <span className="stat-value">♦</span>
+            <span className="stat-label">Building stuff</span>
+          </div>
         </div>
-        <div className="stat-item">
-          <span className="stat-value">NL</span>
-          <span className="stat-label">Netherlands</span>
-        </div>
-        <div className="stat-item">
-          <span className="stat-value">∞</span>
-          <span className="stat-label">Hours gamed</span>
-        </div>
-        <div className="stat-item">
-          <span className="stat-value">♦</span>
-          <span className="stat-label">Building stuff</span>
-        </div>
+      </footer >
 
 
 
-      </div>
-    </div>
+
+
+
+    </div >
+
   );
 }
 
 export default Home;
+
+

@@ -11,6 +11,9 @@ import { BrowserRouter, Routes, Route} from 'react-router';
 function App() {
   return (  
     <>
+    
+      <div className="background-grid" />
+      <div className="background-noise" />
       <BrowserRouter>
         <Header/>
         <Routes>
@@ -27,5 +30,3 @@ function App() {
 }
 
 export default App;
-
-

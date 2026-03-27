@@ -1,13 +1,13 @@
 body {
   color: #ffffff;
   margin: 0;
-  min-height: 120vh;
-  /* background-image: url(assets/wallpaper.jpg); */
-  background: linear-gradient(to right,
-      #0c0d0f,
-      #0d1420);
-  font-family: "DM Sans", sans-serif; 
+  min-height: 100vh;
+  background: #0c0c0a;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+
 
 ::-webkit-scrollbar {
   width: 4px;
@@ -18,7 +18,13 @@ body {
   background-color: #7b61ff;
 }
 
-
-
-
-
+.background-grid {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -2;
+  background-image:
+    linear-gradient(rgba(0, 245, 159, 0.093) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 245, 159, 0.093) 1px, transparent 1px);
+  background-size: 70px 70px;
+}

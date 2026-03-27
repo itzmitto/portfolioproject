@@ -1,11 +1,17 @@
 header {
-    background-color: transparent;
+    background-color: #0c0c0a;
     padding: 20px 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     border-bottom: 1px solid #262630;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+
+
 
     h1 {
         margin: 0;

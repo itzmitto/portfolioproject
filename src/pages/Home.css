@@ -1,9 +1,10 @@
-.Home-container {
+.Home-container {   
   h1 {
     margin: 0;
     font-size: 3rem;
     color: #03ed9d;
     padding-top: 40px;
+    margin-top: 40px;
   }
 
 .ht-line {
@@ -59,6 +60,7 @@
 .button-group {
   display: flex;
   gap: 10px;
+  margin-top: 20px;
 }
 
 .btn-primary {
@@ -94,14 +96,15 @@
 
 .pills {
   display: inline-block;
-  background-color: #20222b;
-  color: lightgrey;
+  background-color: #191821;
+  color: darkgrey;
   padding: 10px 15px;
   border-radius: 50px;
   font-size: 12px;
   margin: 5px;
   border: 1px solid transparent;
   transition: all 0.5s ease;
+  margin-top: 20px;
 }
 
 .pills:hover {
@@ -113,7 +116,6 @@
 .Home-container h1 {
   display: flex;
   margin-inline: 1rem;
-  /* margin-top: 20px; */
   align-items: center;
   gap: 10px;
   font-family: "Times New Roman", serif;
@@ -121,13 +123,17 @@
   color: #03ed9d;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
   animation: fadeUp 0.5s 0.1s ease both;
 }
 
 .Home-container {
   position: relative;
   padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
 }
 
 .content-wrapper {
@@ -137,22 +143,6 @@
 .stats-bar {
   margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .stats-bar {
   display: flex;
@@ -168,13 +158,11 @@
   color: lightgrey;
 }
 
-
 .stat-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
-
 }
 
 .stats-inner {
@@ -185,21 +173,33 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.footer {
+  background-color: #191821;
+  border-top: 1px solid #222;
+  padding: 20px;
+  margin-top: auto;
+  color: white;
+}
 
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
 
+.stat-item {
+  gap: 10px;
+}
 
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+}
 
-
-
-
-
-.sdot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--neon);
-  box-shadow: 0 0 8px var(--neon);
-  animation: pulse 2s ease infinite;
+.stat-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 
@@ -208,6 +208,13 @@
 
 
 
+/* 
+.hvisual {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeUp 0.6s 0.4s ease both;
+      } */
 
 
 
@@ -220,8 +227,7 @@
 
 
 
-
- /* @keyframes fadeUp {
+/* @keyframes fadeUp {
         from {
           opacity: 0;
           transform: translateY(24px);
@@ -276,3 +282,7 @@
           transform: translateX(200%);
         }
       } */
+
+
+
+      

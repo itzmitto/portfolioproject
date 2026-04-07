@@ -3,31 +3,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
-        justify-content: center;
         margin: 50px auto;
         max-width: 1000px;
         padding: 2rem 0;
     }
-
-
-    .titleBlock h1 {
-        color: #03ed9d;
-        margin-bottom: 1rem;
-    }
-
-    .titleBlock h2 {
-        margin-bottom: 2rem;
-        color: white;
-    }
-
-    .titleBlock p {
-        color: lightgrey;
-        line-height: 1.5;
-    }
-
-.card:hover {
-    border-color: rgba(238, 9, 9, 0.964);
-    background: rgb(16, 255, 3);
-}
 
 }

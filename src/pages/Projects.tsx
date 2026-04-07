@@ -33,13 +33,12 @@ function Projects() {
 
                         <div className="card second">
                             <span className="cardNumber">02</span>
-                            <h1>Project title</h1>
-                            <h2>Webapp</h2>
-                            <h3>Short description of the second project goes here.</h3>
+                            <h1>Coming soon</h1>
+                            <h2>Project</h2>
+                            <h3>Building something new. Check back soon for more projects as I keep creating and coding cool things.</h3>
                             <div className="pillsWrapper">
                                 <span className="pill">react</span>
-                                <span className="pill">node</span>
-                                <span className="pill">mongodb</span>
+                                <span className="pill">Laravel</span>
                             </div>
                         </div>
 
@@ -47,13 +46,13 @@ function Projects() {
 
                         <div className="card third">
                             <span className="cardNumber">03</span>
-                            <h1>Project title</h1>
-                            <h2>Webapp</h2>
-                            <h3>Short description of the third project goes here.</h3>
+                            <h1>Digital Arts Series</h1>
+                            <h2>Creative</h2>
+                            <h3>A collection of digital paintings — character designs, concept art, and experiments mixing realism with cartoon aesthetics.</h3>
                             <div className="pillsWrapper">
-                                <span className="pill">next.js</span>
-                                <span className="pill">tailwind</span>
-                                <span className="pill">prisma</span>
+                                <span className="pill">potloden</span>
+                                <span className="pill">gum</span>
+                                <span className="pill">papier</span>
                             </div>
                         </div>
 

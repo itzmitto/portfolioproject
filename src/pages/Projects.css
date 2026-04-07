@@ -21,13 +21,7 @@
 
     .titleBlock p {
         color: lightgrey;
-        line-height: 1.5;
-        max-width: 65ch;
+        line-height: 1.5;        
     }
-
-    .titleBlock {
-        margin-bottom: 2rem;
-    }
-    
 
 }

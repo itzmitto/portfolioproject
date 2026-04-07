@@ -11,8 +11,6 @@ header {
     z-index: 100;
     
 
-
-
     h1 {
         margin: 0;
         font-size: 2rem;
@@ -58,11 +56,10 @@ header {
         border-radius: 100%;
         background: #03ed9d;
         box-shadow: 0 0 20px #4efec0;
-        animation: pulse 3s ease-in-out infinite;
+        animation: pulse 2s ease-in-out infinite;
     }
 
 }
-
 
 
 @keyframes pulse {
@@ -77,10 +74,3 @@ header {
         box-shadow: 0 0 0px #03ed9d;
     }
 }
-
-
-
-
-
-
-

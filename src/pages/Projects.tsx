@@ -13,7 +13,7 @@ function Projects() {
             currently building. Always working on something new.</p>
           </div>
 
-
+ 
 
           <div className="card card--wide">
             <div className="card__header">

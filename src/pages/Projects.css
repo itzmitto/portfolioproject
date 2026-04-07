@@ -9,12 +9,17 @@
     }
 
     .card {
-        border-radius: 10rem;
+        background: #191921;
+        border-radius: 1rem;
     }
 
+    /* border-radius: 10rem;
+        background: #25252f;
+        border-radius: 12px;
+        border: 1px solid black;
+        padding: 20px; */
 
 
-    
 }
 
 

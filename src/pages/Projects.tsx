@@ -23,12 +23,12 @@ function Projects() {
                             <h2>Webapp</h2>
                             <h3>This portfolio you're looking at right now — built with React and TypeScript to showcase my work and skills.</h3>
                             <div className="pillsWrapper">
-                                <span className="pills">react</span>
-                                <span className="pills">typescript</span>
-                                <span className="pills">css</span>
+                                <span className="pill">react</span>
+                                <span className="pill">typescript</span>
+                                <span className="pill">css</span>
                             </div>
                         </div>
-  
+
 
 
                         <div className="card second">
@@ -37,9 +37,9 @@ function Projects() {
                             <h2>Webapp</h2>
                             <h3>Short description of the second project goes here.</h3>
                             <div className="pillsWrapper">
-                                <span className="pills">react</span>
-                                <span className="pills">node</span>
-                                <span className="pills">mongodb</span>
+                                <span className="pill">react</span>
+                                <span className="pill">node</span>
+                                <span className="pill">mongodb</span>
                             </div>
                         </div>
 
@@ -51,9 +51,9 @@ function Projects() {
                             <h2>Webapp</h2>
                             <h3>Short description of the third project goes here.</h3>
                             <div className="pillsWrapper">
-                                <span className="pills">next.js</span>
-                                <span className="pills">tailwind</span>
-                                <span className="pills">prisma</span>
+                                <span className="pill">next.js</span>
+                                <span className="pill">tailwind</span>
+                                <span className="pill">prisma</span>
                             </div>
                         </div>
 

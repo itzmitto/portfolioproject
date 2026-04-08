@@ -1,4 +1,4 @@
-header {
+header {  
     background-color: #0c0c0a;
     padding: 20px 40px;
     display: flex;
@@ -9,9 +9,9 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
-    
 
-    h1 { 
+
+    h1 {
         margin: 0;
         font-size: 2rem;
         font-family: "Times New Roman", serif;
@@ -31,14 +31,20 @@ header {
     nav a {
         text-decoration: none;
         color: darkgrey;
+        position: relative;
+        padding: 10px;
+        border-radius: 10px;
+        transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     nav a:hover {
         color: lightgrey;
+        background-color: #1a1a1f;
     }
 
     nav a.active {
         color: #03ed9d;
+        background-color: #1a1a1f;
     }
 
     nav a.active::after {
@@ -89,75 +95,3 @@ header {
         box-shadow: 0 0 0px #03ed9d;
     }
 }
-
-
-
-
-
-
-
-/* 
-header {
-    background-color: #0c0c0a;
-    padding: 20px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    border-bottom: 1px solid #262630;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    
-
-    h1 { 
-        margin: 0;
-        font-size: 2rem;
-        font-family: "Times New Roman", serif;
-    }
-
-    h3 {
-        color: darkgrey;
-        font-size: 0.8rem;
-        margin-left: right;
-    }
-
-    nav {
-        gap: 20px;
-        display: flex;
-    }
-
-    nav a {
-        text-decoration: none;
-        color: darkgrey;
-        position: relative;
-        padding: 6px 12px;
-        border-radius: 8px;
-        transition: background-color 0.2s ease, color 0.2s ease;
-    }
-
-    nav a:hover {
-        color: white;
-    }
-
-    nav a.active {
-        color: #03ed9d;
-        background-color: #1a1a1f;
-    }
-
-    nav a.active::after {
-        content: '';
-        position: absolute;
-        bottom: -2px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 4px;
-        height: 4px;
-        border-radius: 50%;
-        background-color: #03ed9d;
-    }
-
-}
-
-
-} */

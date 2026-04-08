@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "./Contact.css";    
 function Contact() {
 
     return (
@@ -9,8 +9,9 @@ function Contact() {
                         <h1>── Get in touch</h1>
                         <h2>Things I've built.</h2>
                         <p>
-                            A mix of web projects, creative experiments, and things I'm<br />
-                            currently building. Always working on something new.
+                            Want to collaborate on a project, have
+                            a question, or<br /> just want to say hi? Feel free to reach out
+                            I'm always open to interesting<br /> conversations.
                         </p>
                     </div>
 
@@ -48,9 +49,9 @@ function Contact() {
 
 
 
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
 
 

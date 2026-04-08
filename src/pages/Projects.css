@@ -1,4 +1,4 @@
-.projects { 
+.projects {
     .gridContainer {
         display: flex;
         flex-direction: column;
@@ -94,58 +94,58 @@
 
 
 
-.card.main .pill {
-    color: #03ed9d;
-    background-color: #172d2e;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 12px;
-    margin: 5px;
-    border: 1px solid transparent;
-    border-color: #135442;
-    margin-top: 20px;
-}
+    .card.main .pill {
+        color: #03ed9d;
+        background-color: #172d2e;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        margin: 5px;
+        border: 1px solid transparent;
+        border-color: #135442;
+        margin-top: 20px;
+    }
 
 
 
-.card.second .pill {
-    color: #7b63fc;
-    background-color: #201f32;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 12px;
-    margin: 5px;
-    border: 1px solid transparent;
-    border-color: #312d59;
-    margin-top: 20px;
-}
+    .card.second .pill {
+        color: #7b63fc;
+        background-color: #201f32;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        margin: 5px;
+        border: 1px solid transparent;
+        border-color: #312d59;
+        margin-top: 20px;
+    }
 
 
-.card.third .pill {
-    color: #fd4e6e;
-    background-color: #291e29;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 12px;
-    margin: 5px;
-    border: 1px solid transparent;
-    border-color: #532735;
-    margin-top: 20px;
-}
+    .card.third .pill {
+        color: #fd4e6e;
+        background-color: #291e29;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        margin: 5px;
+        border: 1px solid transparent;
+        border-color: #532735;
+        margin-top: 20px;
+    }
 
-.card.main .pill:hover {
-    border-color: #03ed9d;
-    transition: 1s;
-}
+    .card.main .pill:hover {
+        border-color: #03ed9d;
+        transition: 1s;
+    }
 
-.card.second .pill:hover {
-    border-color: #7b63fc;
-    transition: 1s;
-}
+    .card.second .pill:hover {
+        border-color: #7b63fc;
+        transition: 1s;
+    }
 
-.card.third .pill:hover {
-    border-color: #fd4e6e;
-    transition: 1s;
-}
+    .card.third .pill:hover {
+        border-color: #fd4e6e;
+        transition: 1s;
+    }
 
 }

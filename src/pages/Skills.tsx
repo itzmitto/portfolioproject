@@ -1,4 +1,4 @@
-import "./Skills.css";    
+import "./Skills.css";        
 
 function Skills() {
     return ( 
@@ -34,7 +34,7 @@ function Skills() {
                         <div className="progressBox">
                             <span>HTML / CSS</span>
                             <div className="progressBar">
-                                <div className="progressFill html"></div>
+                                <div className="progressFill html"></div> 
                             </div>
                             <span className="percent">90%</span>
                         </div>

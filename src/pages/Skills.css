@@ -1,4 +1,4 @@
-.skills {
+.skills {   
  
     .gridContainer {
         display: grid;
@@ -274,45 +274,3 @@
 
 
 }
-
-
-/* dit is de animation later goed maken
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeDown {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.titleBlock {
-    animation: fadeDown 0.5s ease forwards;
-}
-
-.card.main {
-    animation: fadeUp 0.5s ease 0.1s both;
-}
-
-.card.creative {
-    animation: fadeUp 0.5s ease 0.3s both;
-}
-
-.card.gaming {
-    animation: fadeUp 0.5s ease 0.5s both;
-} */

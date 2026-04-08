@@ -1,21 +1,22 @@
-import "./Contact.css";    
+import "./Contact.css";
 function Contact() {
- 
+
     return (
-        <div className="Home1-container">
-
-            <div className="content1-wrapper">
-                <h1> ── Get In Touch</h1>
-
-                <div className="hero-text">
-                    <div className="ht-1">LETS</div>
-                    <div className="ht-2">WORK</div>
-                    <div className="ht-3">TOGETHER.</div>
+        <div className="contect">
+            <div className="wrapper">
+                <div className="gridContainer">
+                    <div className="titleBlock">
+                        <h1>── Get in touch</h1>
+                        <h2>Things I've built.</h2>
+                        <p>
+                            A mix of web projects, creative experiments, and things I'm<br />
+                            currently building. Always working on something new.
+                        </p>
+                    </div>
                 </div>
-                <p>21 years old developer from the Netherlands. I create with code
-                    and art blending digital creativity with clean, purposeful engineering.</p>
             </div>
         </div>
+
 
     )
 }

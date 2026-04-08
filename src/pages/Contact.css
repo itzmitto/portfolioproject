@@ -1,48 +1,25 @@
-.contact {   
-     
+.contact {
+    .gridContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 2rem;
+    }
+
     body {
-    min-height: 100vh;
-} 
+        color: red;
+        justify-content: center;
+    }
 
-.Home1-container h1 {
-    color: #03ed9d;
-    margin: 10px;
-    font-size: 2rem;
-    padding-top: 60px;
-    margin-top: 40px;
+    .titleBlock {
+        color: red;
+    }
+    .titleBlock h1 {
+        color: yellow;
+    }
+
+
+
+
 }
 
-
-.Home1-container p {
-    color: darkgrey;
-    max-width: 500px;
-}
-
-.content1-wrapper {
-    margin-left: 200px;
-    display: flex;
-    flex-direction: column; 
-}
-
-
-.hero-text {
-    display: flex;
-    gap: 10px; 
-    font-size: 4rem; 
-    font-weight: bold;
-}
-
-.ht-1 {
-    color: white;
-}
-
-
-.ht-2 {
-    color: #03ed9d;
-}
-
-.ht-3 {
-    color: white;
-}
-
-}

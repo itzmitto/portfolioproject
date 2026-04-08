@@ -21,11 +21,11 @@ function Projects() {
                             <span className="cardNumber">01</span>
                             <h1>Portfolio website</h1>
                             <h2>Webapp</h2>
-                            <h3>This portfolio you're looking at right now — built with React and TypeScript to showcase my work and skills.</h3>
+                            <h3>This portfolio you're looking at right now built with React and TypeScript to showcase my work and skills.</h3>
                             <div className="pillsWrapper">
-                                <span className="pill">react</span>
-                                <span className="pill">typescript</span>
-                                <span className="pill">css</span>
+                                <span className="pill">React</span>
+                                <span className="pill">Typescript</span>
+                                <span className="pill">Css</span>
                             </div>
                         </div>
 
@@ -48,7 +48,7 @@ function Projects() {
                             <span className="cardNumber">03</span>
                             <h1>Digital Arts Series</h1>
                             <h2>Creative</h2>
-                            <h3>A collection of digital paintings — character designs, concept art, and experiments mixing realism with cartoon aesthetics.</h3>
+                            <h3>A collection of digital paintings character designs, concept art, and experiments mixing realism with cartoon aesthetics.</h3>
                             <div className="pillsWrapper">
                                 <span className="pill">potloden</span>
                                 <span className="pill">gum</span>

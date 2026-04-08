@@ -1,52 +1,151 @@
-.projects {
+.projects { 
     .gridContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 2rem;
+    }
+
+    .cardsContainer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 25px;
-        margin: 50px auto;
+        gap: 20px;
         max-width: 1000px;
-        padding: 2rem 0;
+        width: 100%;
     }
 
-    .card {
+    .titleBlock {
+        max-width: 1000px;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .titleBlock h1 {
+        color: #03ed9d;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .titleBlock h2 {
+        color: white;
+        font-size: 2.5rem;
+        margin: 0.5rem 0;
+    }
+
+    .titleBlock p {
+        color: darkgrey;
+    }
+
+    .cardNumber {
+        color: #323a42;
+        font-size: 2rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+
+    .card.main {
+        grid-column: 1 / -1;
         background: #191921;
         border-radius: 1rem;
+        padding: 2rem;
+        border: 1px solid #15463a;
+
     }
 
-    /* border-radius: 10rem;
-        background: #25252f;
-        border-radius: 12px;
-        border: 1px solid black;
-        padding: 20px; */
+    .card.main h2 {
+        color: darkgrey;
+    }
+
+    .card.main h3 {
+        color: darkgrey;
+    }
+
+    .card.second {
+        background: #191921;
+        border-radius: 1rem;
+        padding: 2rem;
+        border: 1px solid #2c284c;
+
+    }
+
+    .card.second h2 {
+        color: darkgrey;
+    }
+
+    .card.second h3 {
+        color: darkgrey;
+    }
+
+    .card.third {
+        background: #191921;
+        border-radius: 1rem;
+        padding: 2rem;
+        border: 1px solid #482531;
+
+    }
+
+    .card.third h2 {
+        color: darkgrey;
+    }
+
+    .card.third h3 {
+        color: darkgrey;
+    }
 
 
-}
 
 
 
-
-
-
-
-
-
-
-
-
-.pill {
-    color: red;
-    display: inline-block;
-    background-color: #191821;
-    padding: 10px 15px;
-    border-radius: 50px;
+.card.main .pill {
+    color: #03ed9d;
+    background-color: #172d2e;
+    padding: 10px;
+    border-radius: 10px;
     font-size: 12px;
     margin: 5px;
     border: 1px solid transparent;
-    transition: all 0.5s ease;
+    border-color: #135442;
     margin-top: 20px;
 }
 
-.pill:hover {
-    color: #7c61fd;
-    border-color: #7c61fd;
+
+
+.card.second .pill {
+    color: #7b63fc;
+    background-color: #201f32;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-color: #312d59;
+    margin-top: 20px;
+}
+
+
+.card.third .pill {
+    color: #fd4e6e;
+    background-color: #291e29;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-color: #532735;
+    margin-top: 20px;
+}
+
+.card.main .pill:hover {
+    border-color: #03ed9d;
+    transition: 1s;
+}
+
+.card.second .pill:hover {
+    border-color: #7b63fc;
+    transition: 1s;
+}
+
+.card.third .pill:hover {
+    border-color: #fd4e6e;
+    transition: 1s;
+}
+
 }

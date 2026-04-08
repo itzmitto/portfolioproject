@@ -62,3 +62,25 @@
 .education:hover::before {
     opacity: 1;
 }
+
+
+
+/* dit is de css voor alle fadeup animation  */
+
+.titleBlock,
+.card,
+.content-wrapper,
+.wrapper {
+    animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(28px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

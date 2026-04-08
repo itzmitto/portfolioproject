@@ -57,12 +57,12 @@ function Home() {
             <span className="stat-label">Netherlands</span>
           </div>
           <div className="stat-item">
-            <span className="stat-value">∞</span>
-            <span className="stat-label">Hours gamed</span>
+            <span className="stat-value">♦</span>
+            <span className="stat-label">gaming</span>
           </div>
           <div className="stat-item">
             <span className="stat-value">♦</span>
-            <span className="stat-label">Building stuff</span>
+            <span className="stat-label">Art</span>
           </div>
         </div>
       </footer >

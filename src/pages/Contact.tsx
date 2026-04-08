@@ -1,6 +1,6 @@
-import "./Contact.css";  
+import "./Contact.css";    
 function Contact() {
-
+ 
     return (
         <div className="Home1-container">
 
@@ -21,14 +21,3 @@ function Contact() {
 }
 
 export default Contact;
-
-
-
-
-
-
-
-
-
-
-

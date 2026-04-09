@@ -1,7 +1,7 @@
 import "./Contact.css";         
 function Contact() {
   
-    return (    
+    return (     
         <div className="contect">
             <div className="wrapper">
                 <div className="gridContainer">

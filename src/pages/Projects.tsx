@@ -1,7 +1,7 @@
 import "./Projects.css";       
 
 function Projects() {
-    return (   
+    return (    
         <div className="projects">
             <div className="wrapper">   
                 <div className="gridContainer">

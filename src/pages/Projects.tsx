@@ -3,7 +3,7 @@ import "./Projects.css";
 function Projects() {
     return (  
         <div className="projects">
-            <div className="wrapper">
+            <div className="wrapper">  
                 <div className="gridContainer">
                     <div className="titleBlock">
                         <h1>── My work</h1>

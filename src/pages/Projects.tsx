@@ -5,7 +5,7 @@ function Projects() {
         <div className="projects">
             <div className="wrapper">   
                 <div className="gridContainer">
-                    <div className="titleBlock">
+                    <div className="titleBlock"> 
                         <h1>── My work</h1>
                         <h2>Things I've built.</h2>
                         <p>

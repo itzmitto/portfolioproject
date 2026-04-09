@@ -1,7 +1,7 @@
 .aboutMe {
     * {
         margin: 0;
-    } 
+    }
 
     margin-top: 1rem;
     margin-inline: 15rem;
@@ -101,6 +101,13 @@
         color: #5947ae;
     }
 
+    li {
+        transition: color 0.3s ease;
+    }
+
+    li:hover {
+        color: #dedee6;
+    }
 
 }
 

@@ -1,6 +1,6 @@
 import "./Projects.css";       
 
-function Projects() { 
+function Projects() {  
     return (    
         <div className="projects">
             <div className="wrapper">   

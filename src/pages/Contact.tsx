@@ -1,5 +1,5 @@
 import "./Contact.css";         
-function Contact() { 
+function Contact() {  
     
     return (     
         <div className="contect">

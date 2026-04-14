@@ -1,6 +1,6 @@
 import "./Contact.css";         
 function Contact() {  
-       
+        
     return (       
         <div className="contect">
             <div className="wrapper">

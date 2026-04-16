@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback } from "react";   
 import "./Contact.css";
 
 function Contact() {
@@ -56,7 +56,7 @@ function Contact() {
                         <div id="form-box">
                             <div>
                                 <label>Naam</label>
-                                <input
+                                <input 
                                     type="text"
                                     placeholder="Jouw naam"
                                     value={name}

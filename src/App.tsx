@@ -6,7 +6,7 @@ import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 
 import { BrowserRouter, Routes, Route} from 'react-router';
-
+  
 
 function App() {
   return (  

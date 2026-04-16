@@ -1,53 +1,96 @@
-.contact {
-    /* .gridContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 4rem 2rem;
-    } */
+.contact { 
+    min-height: 100vh;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 40px 20px;
+} 
 
-    body {
-        color: red;
-        justify-content: center;
-    }
-
-
-
-               
-
+.contact .wrapper {
+    width: 100%;
+    max-width: 900px;       
+    margin: 0 auto;
 }
 
+.contact .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    gap: 100px;   
+    align-items: start;
+    justify-content: center;    
+}
 
+.contact .formContainer {
+    display: flex;
+    justify-content: flex-end;
+}
 
+#form-box {
+    background: #16161e;
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 420px;
+}
 
+#form-box label {
+    color: #888899;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
 
-      
-   
+#form-box > div {
+    margin-bottom: 22px;
+}
 
-  
+.contact input,
+.contact textarea,
+.contact button {
+    width: 100%;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #111116;
+    background-color: #111116;
+    color: #ddd;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.contact textarea {
+    resize: none;
+    height: 160px;
+}
 
+.contact button {
+    border: none;
+    background-color: #03ed9d;
+    color: #111116;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s;
+}
 
+.contact button:hover:not(:disabled) {
+    background-color: #03ed9d;
+    transform: translateY(-2px);
+}
 
+.contact .titleBlock h1 {
+    color: #03ed9d;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.contact .titleBlock h3 {
+    color: #03ed9d;
+    margin: 0.5rem 0;
+}
 
-
-/* dit is de contact pagina h1 dingen later fixen  */
-
-    .titleBlock h1 {
-        color: #03ed9d;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    
-    .titleBlock h2 {
-        color: white;
-        font-size: 2.5rem;
-        margin: 0.5rem 0;
-    }
-
-    .titleBlock p {
-        color: darkgrey;
-    }
-
-
-   
+.contact .titleBlock p {
+    color: darkgrey;
+}

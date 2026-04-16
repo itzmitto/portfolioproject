@@ -94,7 +94,7 @@
     p {
         color: darkgrey;
         font-size: 0.9rem;
-        line-height: 1.5;
+        line-height: 1.5;   
     }
 
     li::marker {

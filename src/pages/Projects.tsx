@@ -11,7 +11,7 @@ function Projects() {
                         <p>
                             A mix of web projects, creative experiments, and things I'm<br />
                             currently building. Always working on something new.
-                        </p>
+                        </p>    
                     </div>
   
      

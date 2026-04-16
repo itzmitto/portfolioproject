@@ -6,7 +6,7 @@ export default Message;
 
 // dit is om te connecten met de App.tsx
 // import Message from './Message';
-
+    
 // function App () {
 //   return <div><Message></Message></div>
 // }

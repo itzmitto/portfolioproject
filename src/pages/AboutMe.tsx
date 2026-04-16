@@ -2,7 +2,7 @@ import "./AboutMe.css";
 function AboutMe() {
     return (
         <div className="aboutMe"> 
-            <div className="wrapper">
+            <div className="wrapper">   
  
                 <h1>── About Me</h1>
                 <p>The human behind the code.</p>

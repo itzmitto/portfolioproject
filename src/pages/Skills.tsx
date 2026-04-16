@@ -22,7 +22,7 @@ function Skills() {
                             </div>
                             <span className="percent">80%</span>
                         </div>
-
+   
                         <div className="progressBox">
                             <span>TypeScript</span>
                             <div className="progressBar">

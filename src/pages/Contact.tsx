@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";    
 import "./Contact.css"; 
-  
+   
 function Contact() {  
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");

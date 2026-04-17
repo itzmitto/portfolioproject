@@ -5,7 +5,7 @@ function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");   
-
+ 
     const isFormValid = name.trim() && email.trim() && message.trim();
 
     const handleSubmit = useCallback(() => {

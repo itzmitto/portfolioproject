@@ -5,7 +5,7 @@
         align-items: center;
         padding: 4rem 2rem;
     }                    
-            
+             
     .cardsContainer {
         display: grid;     
         grid-template-columns: repeat(2, 1fr);

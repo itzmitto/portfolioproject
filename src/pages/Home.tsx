@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="Home-container">
 
-      <div className="content-wrapper">          
+      <div className="content-wrapper">           
         <h1> · Developer · Artist · Gamer </h1>
 
         <div className="hero-text">
